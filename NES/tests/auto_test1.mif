@@ -1,0 +1,150 @@
+-- Copyright (C) 2020  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and any partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details, at
+-- https://fpgasoftware.intel.com/eula.
+
+-- Quartus Prime generated Memory Initialization File (.mif)
+
+WIDTH=8;
+DEPTH=65536;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	[0..12]  :   00;
+	13   :   22;
+	14   :   40;
+	15   :   EE;
+	[16..16415]  :   00;
+	16416   :   50;
+	16417   :   66;
+	16418   :   82;
+	16419   :   33;
+	16420   :   A9;
+	16421   :   AA;
+	16422   :   A2;
+	16423   :   05;
+	16424   :   A0;
+	16425   :   FE;
+	16426   :   18;
+	16427   :   29;
+	16428   :   FA;
+	16429   :   C9;
+	16430   :   AA;
+	16431   :   18;
+	16432   :   F0;
+	16433   :   05;
+	16434   :   A9;
+	16435   :   01;
+	16436   :   4C;
+	16437   :   92;
+	16438   :   40;
+	16439   :   25;
+	16440   :   0F;
+	16441   :   C9;
+	16442   :   AA;
+	16443   :   18;
+	16444   :   F0;
+	16445   :   05;
+	16446   :   A9;
+	16447   :   02;
+	16448   :   4C;
+	16449   :   92;
+	16450   :   40;
+	16451   :   15;
+	16452   :   0A;
+	16453   :   C9;
+	16454   :   EE;
+	16455   :   18;
+	16456   :   F0;
+	16457   :   05;
+	16458   :   A9;
+	16459   :   03;
+	16460   :   4C;
+	16461   :   92;
+	16462   :   40;
+	16463   :   4D;
+	16464   :   20;
+	16465   :   40;
+	16466   :   C9;
+	16467   :   BE;
+	16468   :   18;
+	16469   :   F0;
+	16470   :   05;
+	16471   :   A9;
+	16472   :   04;
+	16473   :   4C;
+	16474   :   92;
+	16475   :   40;
+	16476   :   3D;
+	16477   :   1C;
+	16478   :   40;
+	16479   :   C9;
+	16480   :   26;
+	16481   :   18;
+	16482   :   F0;
+	16483   :   05;
+	16484   :   A9;
+	16485   :   05;
+	16486   :   4C;
+	16487   :   92;
+	16488   :   40;
+	16489   :   19;
+	16490   :   22;
+	16491   :   3F;
+	16492   :   C9;
+	16493   :   76;
+	16494   :   18;
+	16495   :   F0;
+	16496   :   05;
+	16497   :   A9;
+	16498   :   06;
+	16499   :   4C;
+	16500   :   92;
+	16501   :   40;
+	16502   :   41;
+	16503   :   08;
+	16504   :   C9;
+	16505   :   F4;
+	16506   :   18;
+	16507   :   F0;
+	16508   :   05;
+	16509   :   A9;
+	16510   :   07;
+	16511   :   4C;
+	16512   :   92;
+	16513   :   40;
+	16514   :   A0;
+	16515   :   01;
+	16516   :   51;
+	16517   :   0D;
+	16518   :   C9;
+	16519   :   C7;
+	16520   :   18;
+	16521   :   F0;
+	16522   :   05;
+	16523   :   A9;
+	16524   :   08;
+	16525   :   4C;
+	16526   :   92;
+	16527   :   40;
+	16528   :   A9;
+	16529   :   FF;
+	16530   :   85;
+	16531   :   FF;
+	16532   :   4C;
+	16533   :   94;
+	16534   :   40;
+	[16535..65535]  :   00;
+END;

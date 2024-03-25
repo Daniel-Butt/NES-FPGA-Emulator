@@ -1,0 +1,101 @@
+-- Copyright (C) 2020  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and any partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details, at
+-- https://fpgasoftware.intel.com/eula.
+
+-- Quartus Prime generated Memory Initialization File (.mif)
+
+WIDTH=8;
+DEPTH=49120;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0   :   A9;
+	1   :   00;
+	2   :   85;
+	3   :   00;
+	4   :   85;
+	5   :   01;
+	6   :   A9;
+	7   :   90;
+	8   :   85;
+	9   :   02;
+	10   :   8D;
+	11   :   00;
+	12   :   20;
+	13   :   85;
+	14   :   FF;
+	15   :   4C;
+	16   :   2F;
+	17   :   40;
+	[18..8159]  :   00;
+	8160   :   A6;
+	8161   :   00;
+	8162   :   E8;
+	8163   :   E0;
+	8164   :   3C;
+	8165   :   F0;
+	8166   :   05;
+	8167   :   86;
+	8168   :   00;
+	8169   :   4C;
+	8170   :   1D;
+	8171   :   60;
+	8172   :   A2;
+	8173   :   00;
+	8174   :   86;
+	8175   :   00;
+	8176   :   A6;
+	8177   :   01;
+	8178   :   E8;
+	8179   :   E0;
+	8180   :   04;
+	8181   :   D0;
+	8182   :   02;
+	8183   :   A2;
+	8184   :   00;
+	8185   :   86;
+	8186   :   01;
+	8187   :   86;
+	8188   :   FF;
+	8189   :   A5;
+	8190   :   01;
+	8191   :   05;
+	8192   :   02;
+	8193   :   8D;
+	8194   :   00;
+	8195   :   20;
+	8196   :   A9;
+	8197   :   00;
+	8198   :   8D;
+	8199   :   03;
+	8200   :   20;
+	8201   :   A9;
+	8202   :   02;
+	8203   :   18;
+	8204   :   65;
+	8205   :   01;
+	8206   :   8D;
+	8207   :   14;
+	8208   :   40;
+	8209   :   40;
+	[8210..49113]  :   00;
+	49114   :   00; 
+	49115   :   60; 
+	49116   :   20; 
+	49117   :   40;
+	49118   :   00; 
+	49119   :   50;
+END;

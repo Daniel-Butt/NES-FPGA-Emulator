@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HDMI_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT15",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT14",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT13",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT12",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT11",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT10",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT9",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT8",
+					"strict" : false
+				},
+				{
+					"name" : "HDMI_TX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMI_TX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HDMI_TX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT0",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT1",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT2",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT3",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT4",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT5",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT6",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT7",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

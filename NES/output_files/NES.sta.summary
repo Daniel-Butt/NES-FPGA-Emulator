@@ -1,0 +1,221 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'PPU:inst9|VGA_CLK'
+Slack : -25.151
+TNS   : -459.385
+
+Type  : Slow 1200mV 85C Model Setup 'inst6|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -12.852
+TNS   : -1650.582
+
+Type  : Slow 1200mV 85C Model Setup 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : -5.400
+TNS   : -41.222
+
+Type  : Slow 1200mV 85C Model Setup 'inst6|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -4.077
+TNS   : -109.875
+
+Type  : Slow 1200mV 85C Model Setup 'PPU:inst9|clk_out'
+Slack : 28.026
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'inst6|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.047
+TNS   : -0.070
+
+Type  : Slow 1200mV 85C Model Hold 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PPU:inst9|VGA_CLK'
+Slack : 0.456
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PPU:inst9|clk_out'
+Slack : 0.486
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'inst6|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.621
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 33.125
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 5.852
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'inst6|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.518
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'inst6|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.619
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK'
+Slack : 10.264
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 19.606
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PPU:inst9|VGA_CLK'
+Slack : 19.621
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PPU:inst9|clk_out'
+Slack : 19.668
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'PPU:inst9|VGA_CLK'
+Slack : -24.051
+TNS   : -438.985
+
+Type  : Slow 1200mV 0C Model Setup 'inst6|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -11.901
+TNS   : -1497.814
+
+Type  : Slow 1200mV 0C Model Setup 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : -5.225
+TNS   : -39.963
+
+Type  : Slow 1200mV 0C Model Setup 'inst6|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -3.589
+TNS   : -95.917
+
+Type  : Slow 1200mV 0C Model Setup 'PPU:inst9|clk_out'
+Slack : 28.549
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'inst6|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.182
+TNS   : -0.335
+
+Type  : Slow 1200mV 0C Model Hold 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PPU:inst9|VGA_CLK'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PPU:inst9|clk_out'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'inst6|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.581
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 33.464
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 5.290
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'inst6|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.518
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'inst6|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.604
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK'
+Slack : 10.264
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 19.528
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PPU:inst9|VGA_CLK'
+Slack : 19.532
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PPU:inst9|clk_out'
+Slack : 19.631
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'PPU:inst9|VGA_CLK'
+Slack : -10.901
+TNS   : -198.657
+
+Type  : Fast 1200mV 0C Model Setup 'inst6|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -6.009
+TNS   : -805.058
+
+Type  : Fast 1200mV 0C Model Setup 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : -2.097
+TNS   : -15.858
+
+Type  : Fast 1200mV 0C Model Setup 'inst6|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -2.031
+TNS   : -55.961
+
+Type  : Fast 1200mV 0C Model Setup 'PPU:inst9|clk_out'
+Slack : 34.665
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PPU:inst9|VGA_CLK'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'inst6|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PPU:inst9|clk_out'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'inst6|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 36.760
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 2.576
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'inst6|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.762
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'inst6|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.719
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK'
+Slack : 9.832
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLKDIV:inst4|CLK_OUT~reg0'
+Slack : 19.663
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PPU:inst9|VGA_CLK'
+Slack : 19.663
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PPU:inst9|clk_out'
+Slack : 19.752
+TNS   : 0.000
+
+------------------------------------------------------------

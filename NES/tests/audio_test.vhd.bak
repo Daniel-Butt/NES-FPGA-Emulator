@@ -1,0 +1,38 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity audio_test is
+
+	port 
+	(
+		CLK			: in std_logic;
+		AUDIO_OUT1	: out unsigned(15 downto 0);
+		AUDIO_OUT2	: out unsigned(15 downto 0);
+	);
+
+end audio_test;
+
+architecture rtl of audio_test is
+
+	signal count1 : unsigned(15 downto 0) := x"0000";
+	signal count2 : unsigned(15 downto 0) := x"FFFF";
+
+begin
+
+	AUDIO_OUT1 <= count1;
+	AUDIO_OUT2 <= count2;
+
+	process(CLK)
+	begin
+	
+		if(rising_edge(CLK)) then
+		
+			count1 <= count1 + 1;
+			count2 <= count2 - 1;
+		
+		end if;
+	
+	end process;
+
+end rtl;
