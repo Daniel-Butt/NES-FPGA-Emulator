@@ -8,10 +8,14 @@ An NES FPGA emulator for the Arduino MKR Vidor 4000 board (Intel Cyclone 10 LP).
 4. Use the Arduino Sketch to upload the compiled design to the Vidor board
 
 ### Tests
-Successfully complete the NESTEST rom for legal opcodes
+Successfully complete the NESTEST ROM for legal opcodes
 
+<img src='https://github.com/Daniel-Butt/NES-FPGA-Emulator/blob/main/images/NESTEST.PNG' width=300>
 
 Compatible with Mapper 0 games.<br/>
+
+<img src='https://github.com/Daniel-Butt/NES-FPGA-Emulator/blob/main/images/Donkey%20Kong.gif' width=400>
+
 
 Tested playing the following games:<br/>
 •    Donkey Kong <br/>
