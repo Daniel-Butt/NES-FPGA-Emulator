@@ -1,6 +1,8 @@
 # NES-FPGA-Emulator
 An NES FPGA emulator for the Arduino MKR Vidor 4000 board (Intel Cyclone 10 LP). Western University Capstone project 2023-2024.
 
+<img src='https://github.com/Daniel-Butt/NES-FPGA-Emulator/blob/main/images/diagram.png' width=1100>
+
 ### Setup Instructions
 1. Download and extract repo zip
 2. Open NES Intel Quartus Prime project and compile
