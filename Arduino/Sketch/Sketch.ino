@@ -1,6 +1,6 @@
 
 // Source adapted from https://github.com/wd5gnr/VidorFPGA
-
+#include <wiring_private.h>
 #include "jtag.h"
 #include "defines.h"
 #include <Wire.h>
