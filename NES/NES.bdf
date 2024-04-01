@@ -90,9 +90,9 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 1024 216 1200 232)
+	(rect 1216 128 1405 144)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "DOUT[15..8]" (rect 90 0 152 12)(font "Arial" ))
+	(text "I2C_IGNORE[1..0]" (rect 90 0 183 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -103,7 +103,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1192 208 1248 232))
+	(annotation_block (location)(rect 1405 144 1469 168))
 )
 (symbol
 	(rect 240 288 272 320)
@@ -736,6 +736,27 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 16 40)(pt 16 24))
 	)
 	(annotation_block (parameter)(rect 816 80 953 137))
+)
+(symbol
+	(rect 1048 104 1216 184)
+	(text "HIGH_IMPEDANCE" (rect 5 0 104 12)(font "Arial" ))
+	(text "inst3" (rect 8 64 30 81)(font "Intel Clear" ))
+	(port
+		(pt 168 32)
+		(output)
+		(text "Z[data_width-1..0]" (rect 0 0 88 12)(font "Arial" ))
+		(text "Z[data_width-1..0]" (rect 73 27 161 39)(font "Arial" ))
+		(line (pt 168 32)(pt 152 32)(line_width 3))
+	)
+	(parameter
+		"DATA_WIDTH"
+		"2"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 152 64))
+	)
+	(annotation_block (parameter)(rect 1216 64 1408 104))
 )
 (connector
 	(text "CLK" (rect 744 16 764 33)(font "Intel Clear" ))

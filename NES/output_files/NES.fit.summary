@@ -1,16 +1,16 @@
-Fitter Status : Successful - Sun Mar 24 20:31:28 2024
-Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Fitter Status : Successful - Sat Mar 30 18:12:18 2024
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : NES
 Top-level Entity Name : NES
 Family : Cyclone 10 LP
 Device : 10CL016YU256C8G
 Timing Models : Final
-Total logic elements : 14,846 / 15,408 ( 96 % )
-    Total combinational functions : 13,924 / 15,408 ( 90 % )
-    Dedicated logic registers : 3,073 / 15,408 ( 20 % )
-Total registers : 3081
-Total pins : 21 / 163 ( 13 % )
+Total logic elements : 13,302 / 15,408 ( 86 % )
+    Total combinational functions : 12,111 / 15,408 ( 79 % )
+    Dedicated logic registers : 3,065 / 15,408 ( 20 % )
+Total registers : 3073
+Total pins : 15 / 163 ( 9 % )
 Total virtual pins : 0
-Total memory bits : 362,496 / 516,096 ( 70 % )
+Total memory bits : 376,832 / 516,096 ( 73 % )
 Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
 Total PLLs : 1 / 4 ( 25 % )

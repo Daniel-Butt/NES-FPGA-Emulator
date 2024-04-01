@@ -1,12 +1,12 @@
-Info (10281): Verilog HDL Declaration information at source_product_description_info_frame.sv(7): object "VENDOR_NAME" differs only in case from object "vendor_name" in the same scope File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/source_product_description_info_frame.sv Line: 7
-Info (10281): Verilog HDL Declaration information at source_product_description_info_frame.sv(8): object "PRODUCT_DESCRIPTION" differs only in case from object "product_description" in the same scope File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/source_product_description_info_frame.sv Line: 8
-Warning (10273): Verilog HDL warning at packet_picker.sv(42): extended using "x" or "z" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/packet_picker.sv Line: 42
-Warning (10273): Verilog HDL warning at packet_picker.sv(43): extended using "x" or "z" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/packet_picker.sv Line: 43
-Warning (10273): Verilog HDL warning at packet_picker.sv(44): extended using "x" or "z" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/packet_picker.sv Line: 44
-Warning (10273): Verilog HDL warning at packet_picker.sv(45): extended using "x" or "z" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/packet_picker.sv Line: 45
-Warning (10273): Verilog HDL warning at packet_picker.sv(46): extended using "x" or "z" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/packet_picker.sv Line: 46
-Warning (10268): Verilog HDL information at packet_picker.sv(118): always construct contains both blocking and non-blocking assignments File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/packet_picker.sv Line: 118
-Warning (10273): Verilog HDL warning at packet_picker.sv(161): extended using "x" or "z" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/packet_picker.sv Line: 161
-Warning (10268): Verilog HDL information at hdmi.sv(321): always construct contains both blocking and non-blocking assignments File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/hdmi.sv Line: 321
-Warning (10273): Verilog HDL warning at audio_sample_packet.sv(103): extended using "x" or "z" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/audio_sample_packet.sv Line: 103
-Warning (10273): Verilog HDL warning at audio_clock_regeneration_packet.sv(61): extended using "x" or "z" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/audio_clock_regeneration_packet.sv Line: 61
+Info (10281): Verilog HDL Declaration information at source_product_description_info_frame.sv(7): object "VENDOR_NAME" differs only in case from object "vendor_name" in the same scope File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/source_product_description_info_frame.sv Line: 7
+Info (10281): Verilog HDL Declaration information at source_product_description_info_frame.sv(8): object "PRODUCT_DESCRIPTION" differs only in case from object "product_description" in the same scope File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/source_product_description_info_frame.sv Line: 8
+Warning (10273): Verilog HDL warning at packet_picker.sv(42): extended using "x" or "z" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/packet_picker.sv Line: 42
+Warning (10273): Verilog HDL warning at packet_picker.sv(43): extended using "x" or "z" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/packet_picker.sv Line: 43
+Warning (10273): Verilog HDL warning at packet_picker.sv(44): extended using "x" or "z" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/packet_picker.sv Line: 44
+Warning (10273): Verilog HDL warning at packet_picker.sv(45): extended using "x" or "z" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/packet_picker.sv Line: 45
+Warning (10273): Verilog HDL warning at packet_picker.sv(46): extended using "x" or "z" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/packet_picker.sv Line: 46
+Warning (10268): Verilog HDL information at packet_picker.sv(118): always construct contains both blocking and non-blocking assignments File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/packet_picker.sv Line: 118
+Warning (10273): Verilog HDL warning at packet_picker.sv(161): extended using "x" or "z" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/packet_picker.sv Line: 161
+Warning (10268): Verilog HDL information at hdmi.sv(321): always construct contains both blocking and non-blocking assignments File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/hdmi.sv Line: 321
+Warning (10273): Verilog HDL warning at audio_sample_packet.sv(103): extended using "x" or "z" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/audio_sample_packet.sv Line: 103
+Warning (10273): Verilog HDL warning at audio_clock_regeneration_packet.sv(61): extended using "x" or "z" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/audio_clock_regeneration_packet.sv Line: 61

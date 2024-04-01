@@ -1,6 +1,6 @@
 Analysis & Synthesis report for NES
-Sun Mar 24 20:30:20 2024
-Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Sat Mar 30 18:09:21 2024
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
 ---------------------
@@ -28,38 +28,39 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
  20. Source assignments for DVI_OUT:inst1|altddio_out:ddio_inst
  21. Source assignments for DVI_OUT:inst1|altddio_out:ddio_inst|ddio_out_46d:auto_generated
  22. Source assignments for MemoryController:inst8|altsyncram:CPU_MEM_rtl_0|altsyncram_qsh1:auto_generated
- 23. Source assignments for MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_2qf1:auto_generated
+ 23. Source assignments for MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_jrf1:auto_generated
  24. Source assignments for PPU:inst9|altsyncram:NAME_TBL_rtl_0|altsyncram_cgn1:auto_generated
  25. Source assignments for PPU:inst9|altsyncram:ATR_TBL_rtl_0|altsyncram_jan1:auto_generated
- 26. Source assignments for PPU:inst9|altsyncram:Mux7_rtl_0|altsyncram_7lv:auto_generated
- 27. Source assignments for PPU:inst9|altsyncram:Mux6_rtl_0|altsyncram_8lv:auto_generated
- 28. Source assignments for PPU:inst9|altsyncram:Mux5_rtl_0|altsyncram_9lv:auto_generated
- 29. Source assignments for PPU:inst9|altsyncram:Mux4_rtl_0|altsyncram_alv:auto_generated
- 30. Source assignments for PPU:inst9|altsyncram:Mux3_rtl_0|altsyncram_blv:auto_generated
- 31. Source assignments for PPU:inst9|altsyncram:Mux2_rtl_0|altsyncram_clv:auto_generated
- 32. Source assignments for PPU:inst9|altsyncram:Mux1_rtl_0|altsyncram_dlv:auto_generated
- 33. Source assignments for PPU:inst9|altsyncram:Mux0_rtl_0|altsyncram_elv:auto_generated
+ 26. Source assignments for PPU:inst9|altsyncram:Mux11_rtl_0|altsyncram_7lv:auto_generated
+ 27. Source assignments for PPU:inst9|altsyncram:Mux10_rtl_0|altsyncram_8lv:auto_generated
+ 28. Source assignments for PPU:inst9|altsyncram:Mux9_rtl_0|altsyncram_9lv:auto_generated
+ 29. Source assignments for PPU:inst9|altsyncram:Mux8_rtl_0|altsyncram_alv:auto_generated
+ 30. Source assignments for PPU:inst9|altsyncram:Mux7_rtl_0|altsyncram_blv:auto_generated
+ 31. Source assignments for PPU:inst9|altsyncram:Mux6_rtl_0|altsyncram_clv:auto_generated
+ 32. Source assignments for PPU:inst9|altsyncram:Mux5_rtl_0|altsyncram_dlv:auto_generated
+ 33. Source assignments for PPU:inst9|altsyncram:Mux4_rtl_0|altsyncram_elv:auto_generated
  34. Parameter Settings for User Entity Instance: DVI_OUT:inst1|altddio_out:ddio_inst
  35. Parameter Settings for User Entity Instance: vidor50PLL:inst6|altpll:altpll_component
  36. Parameter Settings for User Entity Instance: LPM_CONSTANT:inst5
- 37. Parameter Settings for Inferred Entity Instance: MemoryController:inst8|altsyncram:CPU_MEM_rtl_0
- 38. Parameter Settings for Inferred Entity Instance: MemoryController:inst8|altsyncram:MEM_rtl_0
- 39. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:NAME_TBL_rtl_0
- 40. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:ATR_TBL_rtl_0
- 41. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux7_rtl_0
- 42. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux6_rtl_0
- 43. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux5_rtl_0
- 44. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux4_rtl_0
- 45. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux3_rtl_0
- 46. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux2_rtl_0
- 47. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux1_rtl_0
- 48. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux0_rtl_0
- 49. altpll Parameter Settings by Entity Instance
- 50. altsyncram Parameter Settings by Entity Instance
- 51. Post-Synthesis Netlist Statistics for Top Partition
- 52. Elapsed Time Per Partition
- 53. Analysis & Synthesis Messages
- 54. Analysis & Synthesis Suppressed Messages
+ 37. Parameter Settings for User Entity Instance: HIGH_IMPEDANCE:inst3
+ 38. Parameter Settings for Inferred Entity Instance: MemoryController:inst8|altsyncram:CPU_MEM_rtl_0
+ 39. Parameter Settings for Inferred Entity Instance: MemoryController:inst8|altsyncram:MEM_rtl_0
+ 40. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:NAME_TBL_rtl_0
+ 41. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:ATR_TBL_rtl_0
+ 42. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux11_rtl_0
+ 43. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux10_rtl_0
+ 44. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux9_rtl_0
+ 45. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux8_rtl_0
+ 46. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux7_rtl_0
+ 47. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux6_rtl_0
+ 48. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux5_rtl_0
+ 49. Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux4_rtl_0
+ 50. altpll Parameter Settings by Entity Instance
+ 51. altsyncram Parameter Settings by Entity Instance
+ 52. Post-Synthesis Netlist Statistics for Top Partition
+ 53. Elapsed Time Per Partition
+ 54. Analysis & Synthesis Messages
+ 55. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -86,18 +87,18 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Mar 24 20:30:20 2024       ;
-; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Analysis & Synthesis Status        ; Successful - Sat Mar 30 18:09:20 2024       ;
+; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; NES                                         ;
 ; Top-level Entity Name              ; NES                                         ;
 ; Family                             ; Cyclone 10 LP                               ;
-; Total logic elements               ; 16,515                                      ;
-;     Total combinational functions  ; 13,907                                      ;
-;     Dedicated logic registers      ; 3,073                                       ;
-; Total registers                    ; 3081                                        ;
-; Total pins                         ; 21                                          ;
+; Total logic elements               ; 14,697                                      ;
+;     Total combinational functions  ; 12,094                                      ;
+;     Dedicated logic registers      ; 3,065                                       ;
+; Total registers                    ; 3073                                        ;
+; Total pins                         ; 15                                          ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 362,496                                     ;
+; Total memory bits                  ; 376,832                                     ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
 ; Total PLLs                         ; 1                                           ;
 +------------------------------------+---------------------------------------------+
@@ -195,22 +196,17 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 12          ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.01        ;
-; Maximum used               ; 12          ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
-;     Processor 3            ;   0.1%      ;
-;     Processor 4            ;   0.1%      ;
-;     Processor 5            ;   0.1%      ;
-;     Processor 6            ;   0.1%      ;
-;     Processor 7            ;   0.1%      ;
-;     Processor 8            ;   0.1%      ;
-;     Processors 9-12        ;   0.1%      ;
+;     Processor 2            ;   0.2%      ;
+;     Processor 3            ;   0.2%      ;
+;     Processor 4            ;   0.2%      ;
 +----------------------------+-------------+
 
 
@@ -219,29 +215,30 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------+-----------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path              ; Used in Netlist ; File Type                                             ; File Name with Absolute Path                                                               ; Library ;
 +-----------------------------------------------+-----------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------+---------+
-; ROM_INIT.vhd                                  ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/EmptyVidorProject/NES/ROM_INIT.vhd                                  ;         ;
-; PPU.vhd                                       ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/EmptyVidorProject/NES/PPU.vhd                                       ;         ;
-; opcode_constants.vhd                          ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/EmptyVidorProject/NES/opcode_constants.vhd                          ;         ;
-; CPU_6502.vhd                                  ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd                                  ;         ;
-; CLKDIV.vhd                                    ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/EmptyVidorProject/NES/CLKDIV.vhd                                    ;         ;
-; MemoryController.vhd                          ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd                          ;         ;
-; vidor50PLL.vhd                                ; yes             ; User Wizard-Generated File                            ; C:/Users/danie/Desktop/EmptyVidorProject/NES/vidor50PLL.vhd                                ;         ;
-; NES.bdf                                       ; yes             ; User Block Diagram/Schematic File                     ; C:/Users/danie/Desktop/EmptyVidorProject/NES/NES.bdf                                       ;         ;
-; ip/SYSTEM_PLL/SYSTEM_PLL.v                    ; yes             ; User Wizard-Generated File                            ; C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/SYSTEM_PLL/SYSTEM_PLL.v                    ;         ;
-; ip/DVI_OUT/TMDS_ENCODE.v                      ; yes             ; User Verilog HDL File                                 ; C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/DVI_OUT/TMDS_ENCODE.v                      ; DVI_OUT ;
-; ip/DVI_OUT/DVI_OUT.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/DVI_OUT/DVI_OUT.v                          ; DVI_OUT ;
+; ROM_INIT.vhd                                  ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ROM_INIT.vhd                                  ;         ;
+; PPU.vhd                                       ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/PPU.vhd                                       ;         ;
+; opcode_constants.vhd                          ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/opcode_constants.vhd                          ;         ;
+; CPU_6502.vhd                                  ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd                                  ;         ;
+; CLKDIV.vhd                                    ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CLKDIV.vhd                                    ;         ;
+; MemoryController.vhd                          ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd                          ;         ;
+; vidor50PLL.vhd                                ; yes             ; User Wizard-Generated File                            ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/vidor50PLL.vhd                                ;         ;
+; NES.bdf                                       ; yes             ; User Block Diagram/Schematic File                     ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/NES.bdf                                       ;         ;
+; ip/SYSTEM_PLL/SYSTEM_PLL.v                    ; yes             ; User Wizard-Generated File                            ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/SYSTEM_PLL/SYSTEM_PLL.v                    ;         ;
+; ip/DVI_OUT/TMDS_ENCODE.v                      ; yes             ; User Verilog HDL File                                 ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/DVI_OUT/TMDS_ENCODE.v                      ; DVI_OUT ;
+; ip/DVI_OUT/DVI_OUT.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/DVI_OUT/DVI_OUT.v                          ; DVI_OUT ;
+; HIGH_IMPEDANCE.vhd                            ; yes             ; User VHDL File                                        ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/HIGH_IMPEDANCE.vhd                            ;         ;
 ; altddio_out.tdf                               ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altddio_out.tdf                     ;         ;
 ; aglobal201.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                      ;         ;
 ; stratix_ddio.inc                              ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/stratix_ddio.inc                    ;         ;
 ; cyclone_ddio.inc                              ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/cyclone_ddio.inc                    ;         ;
 ; lpm_mux.inc                                   ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.inc                         ;         ;
 ; stratix_lcell.inc                             ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/stratix_lcell.inc                   ;         ;
-; db/ddio_out_46d.tdf                           ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/ddio_out_46d.tdf                           ;         ;
+; db/ddio_out_46d.tdf                           ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/ddio_out_46d.tdf                           ;         ;
 ; altpll.tdf                                    ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altpll.tdf                          ;         ;
 ; stratix_pll.inc                               ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/stratix_pll.inc                     ;         ;
 ; stratixii_pll.inc                             ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/stratixii_pll.inc                   ;         ;
 ; cycloneii_pll.inc                             ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/cycloneii_pll.inc                   ;         ;
-; db/vidor50pll_altpll.v                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/vidor50pll_altpll.v                        ;         ;
+; db/vidor50pll_altpll.v                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/vidor50pll_altpll.v                        ;         ;
 ; lpm_constant.tdf                              ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_constant.tdf                    ;         ;
 ; altsyncram.tdf                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf                      ;         ;
 ; stratix_ram_block.inc                         ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/stratix_ram_block.inc               ;         ;
@@ -250,25 +247,25 @@ https://fpgasoftware.intel.com/eula.
 ; altrom.inc                                    ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altrom.inc                          ;         ;
 ; altram.inc                                    ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altram.inc                          ;         ;
 ; altdpram.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altdpram.inc                        ;         ;
-; db/altsyncram_qsh1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_qsh1.tdf                        ;         ;
-; db/nes.ram0_memorycontroller_6c6eecc2.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/nes.ram0_memorycontroller_6c6eecc2.hdl.mif ;         ;
-; db/altsyncram_2qf1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_2qf1.tdf                        ;         ;
-; games/super mario.mif                         ; yes             ; Auto-Found Memory Initialization File                 ; C:/Users/danie/Desktop/EmptyVidorProject/NES/games/super mario.mif                         ;         ;
-; db/decode_fsa.tdf                             ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/decode_fsa.tdf                             ;         ;
-; db/decode_88a.tdf                             ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/decode_88a.tdf                             ;         ;
-; db/mux_vmb.tdf                                ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/mux_vmb.tdf                                ;         ;
-; db/altsyncram_cgn1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_cgn1.tdf                        ;         ;
-; db/nes.ram0_ppu_14356.hdl.mif                 ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/nes.ram0_ppu_14356.hdl.mif                 ;         ;
-; db/altsyncram_jan1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_jan1.tdf                        ;         ;
-; db/nes.ram1_ppu_14356.hdl.mif                 ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/nes.ram1_ppu_14356.hdl.mif                 ;         ;
-; db/altsyncram_7lv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_7lv.tdf                         ;         ;
-; db/altsyncram_8lv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_8lv.tdf                         ;         ;
-; db/altsyncram_9lv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_9lv.tdf                         ;         ;
-; db/altsyncram_alv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_alv.tdf                         ;         ;
-; db/altsyncram_blv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_blv.tdf                         ;         ;
-; db/altsyncram_clv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_clv.tdf                         ;         ;
-; db/altsyncram_dlv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_dlv.tdf                         ;         ;
-; db/altsyncram_elv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_elv.tdf                         ;         ;
+; db/altsyncram_qsh1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_qsh1.tdf                        ;         ;
+; db/nes.ram0_memorycontroller_6c6eecc2.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/nes.ram0_memorycontroller_6c6eecc2.hdl.mif ;         ;
+; db/altsyncram_jrf1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_jrf1.tdf                        ;         ;
+; games/donkey_kong.mif                         ; yes             ; Auto-Found Memory Initialization File                 ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/games/donkey_kong.mif                         ;         ;
+; db/decode_fsa.tdf                             ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/decode_fsa.tdf                             ;         ;
+; db/decode_88a.tdf                             ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/decode_88a.tdf                             ;         ;
+; db/mux_vmb.tdf                                ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/mux_vmb.tdf                                ;         ;
+; db/altsyncram_cgn1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_cgn1.tdf                        ;         ;
+; db/nes.ram0_ppu_14356.hdl.mif                 ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/nes.ram0_ppu_14356.hdl.mif                 ;         ;
+; db/altsyncram_jan1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_jan1.tdf                        ;         ;
+; db/nes.ram1_ppu_14356.hdl.mif                 ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/nes.ram1_ppu_14356.hdl.mif                 ;         ;
+; db/altsyncram_7lv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_7lv.tdf                         ;         ;
+; db/altsyncram_8lv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_8lv.tdf                         ;         ;
+; db/altsyncram_9lv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_9lv.tdf                         ;         ;
+; db/altsyncram_alv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_alv.tdf                         ;         ;
+; db/altsyncram_blv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_blv.tdf                         ;         ;
+; db/altsyncram_clv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_clv.tdf                         ;         ;
+; db/altsyncram_dlv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_dlv.tdf                         ;         ;
+; db/altsyncram_elv.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_elv.tdf                         ;         ;
 +-----------------------------------------------+-----------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------+---------+
 
 
@@ -277,24 +274,24 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+---------------------------+
 ; Resource                                    ; Usage                     ;
 +---------------------------------------------+---------------------------+
-; Estimated Total logic elements              ; 16,515                    ;
+; Estimated Total logic elements              ; 14,697                    ;
 ;                                             ;                           ;
-; Total combinational functions               ; 13907                     ;
+; Total combinational functions               ; 12094                     ;
 ; Logic element usage by number of LUT inputs ;                           ;
-;     -- 4 input functions                    ; 11291                     ;
-;     -- 3 input functions                    ; 2008                      ;
-;     -- <=2 input functions                  ; 608                       ;
+;     -- 4 input functions                    ; 9572                      ;
+;     -- 3 input functions                    ; 1905                      ;
+;     -- <=2 input functions                  ; 617                       ;
 ;                                             ;                           ;
 ; Logic elements by mode                      ;                           ;
-;     -- normal mode                          ; 13381                     ;
-;     -- arithmetic mode                      ; 526                       ;
+;     -- normal mode                          ; 11558                     ;
+;     -- arithmetic mode                      ; 536                       ;
 ;                                             ;                           ;
-; Total registers                             ; 3081                      ;
-;     -- Dedicated logic registers            ; 3073                      ;
+; Total registers                             ; 3073                      ;
+;     -- Dedicated logic registers            ; 3065                      ;
 ;     -- I/O registers                        ; 16                        ;
 ;                                             ;                           ;
-; I/O pins                                    ; 21                        ;
-; Total memory bits                           ; 362496                    ;
+; I/O pins                                    ; 15                        ;
+; Total memory bits                           ; 376832                    ;
 ;                                             ;                           ;
 ; Embedded Multiplier 9-bit elements          ; 0                         ;
 ;                                             ;                           ;
@@ -302,9 +299,9 @@ https://fpgasoftware.intel.com/eula.
 ;     -- PLLs                                 ; 1                         ;
 ;                                             ;                           ;
 ; Maximum fan-out node                        ; CLKDIV:inst4|CLK_OUT~reg0 ;
-; Maximum fan-out                             ; 2524                      ;
-; Total fan-out                               ; 63212                     ;
-; Average fan-out                             ; 3.70                      ;
+; Maximum fan-out                             ; 2516                      ;
+; Total fan-out                               ; 56030                     ;
+; Average fan-out                             ; 3.67                      ;
 +---------------------------------------------+---------------------------+
 
 
@@ -313,43 +310,43 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------+-------------------+--------------+
 ; Compilation Hierarchy Node                  ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                      ; Entity Name       ; Library Name ;
 +---------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------+-------------------+--------------+
-; |NES                                        ; 13907 (1)           ; 3073 (0)                  ; 362496      ; 0            ; 0       ; 0         ; 21   ; 0            ; |NES                                                                                                     ; NES               ; work         ;
+; |NES                                        ; 12094 (1)           ; 3065 (0)                  ; 376832      ; 0            ; 0       ; 0         ; 15   ; 0            ; |NES                                                                                                     ; NES               ; work         ;
 ;    |CLKDIV:inst4|                           ; 10 (10)             ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|CLKDIV:inst4                                                                                        ; CLKDIV            ; work         ;
-;    |CPU_6502:inst|                          ; 2180 (2180)         ; 138 (138)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|CPU_6502:inst                                                                                       ; CPU_6502          ; work         ;
+;    |CPU_6502:inst|                          ; 2181 (2181)         ; 138 (138)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|CPU_6502:inst                                                                                       ; CPU_6502          ; work         ;
 ;    |DVI_OUT:inst1|                          ; 367 (37)            ; 142 (40)                  ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|DVI_OUT:inst1                                                                                       ; DVI_OUT           ; DVI_OUT      ;
 ;       |TMDS_ENCODE:blu_inst|                ; 110 (110)           ; 34 (34)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|DVI_OUT:inst1|TMDS_ENCODE:blu_inst                                                                  ; TMDS_ENCODE       ; DVI_OUT      ;
 ;       |TMDS_ENCODE:grn_inst|                ; 110 (110)           ; 34 (34)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|DVI_OUT:inst1|TMDS_ENCODE:grn_inst                                                                  ; TMDS_ENCODE       ; DVI_OUT      ;
 ;       |TMDS_ENCODE:red_inst|                ; 110 (110)           ; 34 (34)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|DVI_OUT:inst1|TMDS_ENCODE:red_inst                                                                  ; TMDS_ENCODE       ; DVI_OUT      ;
 ;       |altddio_out:ddio_inst|               ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|DVI_OUT:inst1|altddio_out:ddio_inst                                                                 ; altddio_out       ; work         ;
 ;          |ddio_out_46d:auto_generated|      ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|DVI_OUT:inst1|altddio_out:ddio_inst|ddio_out_46d:auto_generated                                     ; ddio_out_46d      ; work         ;
-;    |MemoryController:inst8|                 ; 519 (511)           ; 489 (487)                 ; 278528      ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|MemoryController:inst8                                                                              ; MemoryController  ; work         ;
+;    |MemoryController:inst8|                 ; 514 (506)           ; 481 (479)                 ; 278528      ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|MemoryController:inst8                                                                              ; MemoryController  ; work         ;
 ;       |altsyncram:CPU_MEM_rtl_0|            ; 0 (0)               ; 0 (0)                     ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|MemoryController:inst8|altsyncram:CPU_MEM_rtl_0                                                     ; altsyncram        ; work         ;
 ;          |altsyncram_qsh1:auto_generated|   ; 0 (0)               ; 0 (0)                     ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|MemoryController:inst8|altsyncram:CPU_MEM_rtl_0|altsyncram_qsh1:auto_generated                      ; altsyncram_qsh1   ; work         ;
 ;       |altsyncram:MEM_rtl_0|                ; 8 (0)               ; 2 (0)                     ; 262144      ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|MemoryController:inst8|altsyncram:MEM_rtl_0                                                         ; altsyncram        ; work         ;
-;          |altsyncram_2qf1:auto_generated|   ; 8 (0)               ; 2 (2)                     ; 262144      ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_2qf1:auto_generated                          ; altsyncram_2qf1   ; work         ;
-;             |decode_88a:rden_decode_b|      ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_2qf1:auto_generated|decode_88a:rden_decode_b ; decode_88a        ; work         ;
-;             |decode_fsa:decode2|            ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_2qf1:auto_generated|decode_fsa:decode2       ; decode_fsa        ; work         ;
-;    |PPU:inst9|                              ; 10830 (10830)       ; 2298 (2298)               ; 83968       ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9                                                                                           ; PPU               ; work         ;
+;          |altsyncram_jrf1:auto_generated|   ; 8 (0)               ; 2 (2)                     ; 262144      ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_jrf1:auto_generated                          ; altsyncram_jrf1   ; work         ;
+;             |decode_88a:rden_decode_b|      ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_jrf1:auto_generated|decode_88a:rden_decode_b ; decode_88a        ; work         ;
+;             |decode_fsa:decode2|            ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_jrf1:auto_generated|decode_fsa:decode2       ; decode_fsa        ; work         ;
+;    |PPU:inst9|                              ; 9021 (9021)         ; 2298 (2298)               ; 98304       ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9                                                                                           ; PPU               ; work         ;
 ;       |altsyncram:ATR_TBL_rtl_0|            ; 0 (0)               ; 0 (0)                     ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:ATR_TBL_rtl_0                                                                  ; altsyncram        ; work         ;
 ;          |altsyncram_jan1:auto_generated|   ; 0 (0)               ; 0 (0)                     ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:ATR_TBL_rtl_0|altsyncram_jan1:auto_generated                                   ; altsyncram_jan1   ; work         ;
-;       |altsyncram:Mux0_rtl_0|               ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux0_rtl_0                                                                     ; altsyncram        ; work         ;
-;          |altsyncram_elv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux0_rtl_0|altsyncram_elv:auto_generated                                       ; altsyncram_elv    ; work         ;
-;       |altsyncram:Mux1_rtl_0|               ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux1_rtl_0                                                                     ; altsyncram        ; work         ;
-;          |altsyncram_dlv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux1_rtl_0|altsyncram_dlv:auto_generated                                       ; altsyncram_dlv    ; work         ;
-;       |altsyncram:Mux2_rtl_0|               ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux2_rtl_0                                                                     ; altsyncram        ; work         ;
-;          |altsyncram_clv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux2_rtl_0|altsyncram_clv:auto_generated                                       ; altsyncram_clv    ; work         ;
-;       |altsyncram:Mux3_rtl_0|               ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux3_rtl_0                                                                     ; altsyncram        ; work         ;
-;          |altsyncram_blv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux3_rtl_0|altsyncram_blv:auto_generated                                       ; altsyncram_blv    ; work         ;
+;       |altsyncram:Mux10_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux10_rtl_0                                                                    ; altsyncram        ; work         ;
+;          |altsyncram_8lv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux10_rtl_0|altsyncram_8lv:auto_generated                                      ; altsyncram_8lv    ; work         ;
+;       |altsyncram:Mux11_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux11_rtl_0                                                                    ; altsyncram        ; work         ;
+;          |altsyncram_7lv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux11_rtl_0|altsyncram_7lv:auto_generated                                      ; altsyncram_7lv    ; work         ;
 ;       |altsyncram:Mux4_rtl_0|               ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux4_rtl_0                                                                     ; altsyncram        ; work         ;
-;          |altsyncram_alv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux4_rtl_0|altsyncram_alv:auto_generated                                       ; altsyncram_alv    ; work         ;
+;          |altsyncram_elv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux4_rtl_0|altsyncram_elv:auto_generated                                       ; altsyncram_elv    ; work         ;
 ;       |altsyncram:Mux5_rtl_0|               ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux5_rtl_0                                                                     ; altsyncram        ; work         ;
-;          |altsyncram_9lv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux5_rtl_0|altsyncram_9lv:auto_generated                                       ; altsyncram_9lv    ; work         ;
+;          |altsyncram_dlv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux5_rtl_0|altsyncram_dlv:auto_generated                                       ; altsyncram_dlv    ; work         ;
 ;       |altsyncram:Mux6_rtl_0|               ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux6_rtl_0                                                                     ; altsyncram        ; work         ;
-;          |altsyncram_8lv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux6_rtl_0|altsyncram_8lv:auto_generated                                       ; altsyncram_8lv    ; work         ;
+;          |altsyncram_clv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux6_rtl_0|altsyncram_clv:auto_generated                                       ; altsyncram_clv    ; work         ;
 ;       |altsyncram:Mux7_rtl_0|               ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux7_rtl_0                                                                     ; altsyncram        ; work         ;
-;          |altsyncram_7lv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux7_rtl_0|altsyncram_7lv:auto_generated                                       ; altsyncram_7lv    ; work         ;
-;       |altsyncram:NAME_TBL_rtl_0|           ; 0 (0)               ; 0 (0)                     ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:NAME_TBL_rtl_0                                                                 ; altsyncram        ; work         ;
-;          |altsyncram_cgn1:auto_generated|   ; 0 (0)               ; 0 (0)                     ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:NAME_TBL_rtl_0|altsyncram_cgn1:auto_generated                                  ; altsyncram_cgn1   ; work         ;
+;          |altsyncram_blv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux7_rtl_0|altsyncram_blv:auto_generated                                       ; altsyncram_blv    ; work         ;
+;       |altsyncram:Mux8_rtl_0|               ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux8_rtl_0                                                                     ; altsyncram        ; work         ;
+;          |altsyncram_alv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux8_rtl_0|altsyncram_alv:auto_generated                                       ; altsyncram_alv    ; work         ;
+;       |altsyncram:Mux9_rtl_0|               ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux9_rtl_0                                                                     ; altsyncram        ; work         ;
+;          |altsyncram_9lv:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:Mux9_rtl_0|altsyncram_9lv:auto_generated                                       ; altsyncram_9lv    ; work         ;
+;       |altsyncram:NAME_TBL_rtl_0|           ; 0 (0)               ; 0 (0)                     ; 30720       ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:NAME_TBL_rtl_0                                                                 ; altsyncram        ; work         ;
+;          |altsyncram_cgn1:auto_generated|   ; 0 (0)               ; 0 (0)                     ; 30720       ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|PPU:inst9|altsyncram:NAME_TBL_rtl_0|altsyncram_cgn1:auto_generated                                  ; altsyncram_cgn1   ; work         ;
 ;    |vidor50PLL:inst6|                       ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|vidor50PLL:inst6                                                                                    ; vidor50PLL        ; work         ;
 ;       |altpll:altpll_component|             ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|vidor50PLL:inst6|altpll:altpll_component                                                            ; altpll            ; work         ;
 ;          |vidor50PLL_altpll:auto_generated| ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |NES|vidor50PLL:inst6|altpll:altpll_component|vidor50PLL_altpll:auto_generated                           ; vidor50PLL_altpll ; work         ;
@@ -363,16 +360,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name                                                                                      ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size   ; MIF                                           ;
 +-------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+-----------------------------------------------+
 ; MemoryController:inst8|altsyncram:CPU_MEM_rtl_0|altsyncram_qsh1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 8192         ; 8            ; 8192         ; 8            ; 65536  ; db/NES.ram0_MemoryController_6c6eecc2.hdl.mif ;
-; MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_2qf1:auto_generated|ALTSYNCRAM     ; AUTO ; Simple Dual Port ; 32768        ; 8            ; 32768        ; 8            ; 262144 ; games/Super Mario.mif                         ;
+; MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_jrf1:auto_generated|ALTSYNCRAM     ; AUTO ; Simple Dual Port ; 32768        ; 8            ; 32768        ; 8            ; 262144 ; games/Donkey_Kong.mif                         ;
 ; PPU:inst9|altsyncram:ATR_TBL_rtl_0|altsyncram_jan1:auto_generated|ALTSYNCRAM              ; AUTO ; Simple Dual Port ; 256          ; 8            ; 256          ; 8            ; 2048   ; db/NES.ram1_PPU_14356.hdl.mif                 ;
-; PPU:inst9|altsyncram:Mux0_rtl_0|altsyncram_elv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES7.rtl.mif                              ;
-; PPU:inst9|altsyncram:Mux1_rtl_0|altsyncram_dlv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES6.rtl.mif                              ;
-; PPU:inst9|altsyncram:Mux2_rtl_0|altsyncram_clv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES5.rtl.mif                              ;
-; PPU:inst9|altsyncram:Mux3_rtl_0|altsyncram_blv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES4.rtl.mif                              ;
-; PPU:inst9|altsyncram:Mux4_rtl_0|altsyncram_alv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES3.rtl.mif                              ;
-; PPU:inst9|altsyncram:Mux5_rtl_0|altsyncram_9lv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES2.rtl.mif                              ;
-; PPU:inst9|altsyncram:Mux6_rtl_0|altsyncram_8lv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES1.rtl.mif                              ;
-; PPU:inst9|altsyncram:Mux7_rtl_0|altsyncram_7lv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES0.rtl.mif                              ;
+; PPU:inst9|altsyncram:Mux10_rtl_0|altsyncram_8lv:auto_generated|ALTSYNCRAM                 ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES1.rtl.mif                              ;
+; PPU:inst9|altsyncram:Mux11_rtl_0|altsyncram_7lv:auto_generated|ALTSYNCRAM                 ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES0.rtl.mif                              ;
+; PPU:inst9|altsyncram:Mux4_rtl_0|altsyncram_elv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES7.rtl.mif                              ;
+; PPU:inst9|altsyncram:Mux5_rtl_0|altsyncram_dlv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES6.rtl.mif                              ;
+; PPU:inst9|altsyncram:Mux6_rtl_0|altsyncram_clv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES5.rtl.mif                              ;
+; PPU:inst9|altsyncram:Mux7_rtl_0|altsyncram_blv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES4.rtl.mif                              ;
+; PPU:inst9|altsyncram:Mux8_rtl_0|altsyncram_alv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES3.rtl.mif                              ;
+; PPU:inst9|altsyncram:Mux9_rtl_0|altsyncram_9lv:auto_generated|ALTSYNCRAM                  ; AUTO ; ROM              ; 8192         ; 1            ; --           ; --           ; 8192   ; NES.NES2.rtl.mif                              ;
 ; PPU:inst9|altsyncram:NAME_TBL_rtl_0|altsyncram_cgn1:auto_generated|ALTSYNCRAM             ; AUTO ; Simple Dual Port ; 3840         ; 8            ; 3840         ; 8            ; 30720  ; db/NES.ram0_PPU_14356.hdl.mif                 ;
 +-------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+-----------------------------------------------+
 
@@ -569,12 +566,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 3073  ;
+; Total registers                              ; 3065  ;
 ; Number of registers using Synchronous Clear  ; 256   ;
 ; Number of registers using Synchronous Load   ; 63    ;
 ; Number of registers using Asynchronous Clear ; 1     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 2739  ;
+; Number of registers using Clock Enable       ; 2731  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -588,29 +585,26 @@ Encoding Type:  One-Hot
 ; DVI_OUT:inst1|rSH_CLK[0]                        ; 3       ;
 ; DVI_OUT:inst1|rSH_CLK[3]                        ; 2       ;
 ; DVI_OUT:inst1|rSH_CLK[2]                        ; 2       ;
-; MemoryController:inst8|MEM_rtl_0_bypass[44]     ; 1       ;
-; MemoryController:inst8|MEM_rtl_0_bypass[43]     ; 1       ;
-; MemoryController:inst8|CPU_MEM_rtl_0_bypass[40] ; 1       ;
+; DVI_OUT:inst1|rSH_CLK[4]                        ; 2       ;
+; MemoryController:inst8|MEM_rtl_0_bypass[32]     ; 1       ;
+; MemoryController:inst8|CPU_MEM_rtl_0_bypass[28] ; 1       ;
 ; MemoryController:inst8|MEM_rtl_0_bypass[46]     ; 1       ;
 ; MemoryController:inst8|CPU_MEM_rtl_0_bypass[42] ; 1       ;
-; MemoryController:inst8|MEM_rtl_0_bypass[42]     ; 1       ;
+; MemoryController:inst8|MEM_rtl_0_bypass[44]     ; 1       ;
+; MemoryController:inst8|CPU_MEM_rtl_0_bypass[40] ; 1       ;
 ; MemoryController:inst8|MEM_rtl_0_bypass[41]     ; 1       ;
+; MemoryController:inst8|MEM_rtl_0_bypass[42]     ; 1       ;
 ; MemoryController:inst8|CPU_MEM_rtl_0_bypass[38] ; 1       ;
 ; MemoryController:inst8|MEM_rtl_0_bypass[40]     ; 1       ;
-; MemoryController:inst8|MEM_rtl_0_bypass[39]     ; 1       ;
 ; MemoryController:inst8|CPU_MEM_rtl_0_bypass[36] ; 1       ;
 ; MemoryController:inst8|MEM_rtl_0_bypass[38]     ; 1       ;
-; MemoryController:inst8|MEM_rtl_0_bypass[37]     ; 1       ;
 ; MemoryController:inst8|CPU_MEM_rtl_0_bypass[34] ; 1       ;
 ; MemoryController:inst8|MEM_rtl_0_bypass[36]     ; 1       ;
 ; MemoryController:inst8|CPU_MEM_rtl_0_bypass[32] ; 1       ;
 ; MemoryController:inst8|MEM_rtl_0_bypass[34]     ; 1       ;
 ; MemoryController:inst8|CPU_MEM_rtl_0_bypass[30] ; 1       ;
-; MemoryController:inst8|MEM_rtl_0_bypass[32]     ; 1       ;
-; MemoryController:inst8|CPU_MEM_rtl_0_bypass[28] ; 1       ;
 ; CPU_6502:inst|NMI_STATE                         ; 7       ;
-; DVI_OUT:inst1|rSH_CLK[4]                        ; 2       ;
-; Total number of inverted registers = 26         ;         ;
+; Total number of inverted registers = 23         ;         ;
 +-------------------------------------------------+---------+
 
 
@@ -719,14 +713,14 @@ Encoding Type:  One-Hot
 +---------------------------+--------------------------+------+
 ; PPU:inst9|NAME_DATA[0..7] ; PPU:inst9|NAME_TBL_rtl_0 ; RAM  ;
 ; PPU:inst9|ATR_DATA[0..7]  ; PPU:inst9|ATR_TBL_rtl_0  ; RAM  ;
-; PPU:inst9|PPU_DATA_OUT[0] ; PPU:inst9|Mux7_rtl_0     ; ROM  ;
-; PPU:inst9|PPU_DATA_OUT[1] ; PPU:inst9|Mux6_rtl_0     ; ROM  ;
-; PPU:inst9|PPU_DATA_OUT[2] ; PPU:inst9|Mux5_rtl_0     ; ROM  ;
-; PPU:inst9|PPU_DATA_OUT[3] ; PPU:inst9|Mux4_rtl_0     ; ROM  ;
-; PPU:inst9|PPU_DATA_OUT[4] ; PPU:inst9|Mux3_rtl_0     ; ROM  ;
-; PPU:inst9|PPU_DATA_OUT[5] ; PPU:inst9|Mux2_rtl_0     ; ROM  ;
-; PPU:inst9|PPU_DATA_OUT[6] ; PPU:inst9|Mux1_rtl_0     ; ROM  ;
-; PPU:inst9|PPU_DATA_OUT[7] ; PPU:inst9|Mux0_rtl_0     ; ROM  ;
+; PPU:inst9|PPU_DATA_OUT[0] ; PPU:inst9|Mux11_rtl_0    ; ROM  ;
+; PPU:inst9|PPU_DATA_OUT[1] ; PPU:inst9|Mux10_rtl_0    ; ROM  ;
+; PPU:inst9|PPU_DATA_OUT[2] ; PPU:inst9|Mux9_rtl_0     ; ROM  ;
+; PPU:inst9|PPU_DATA_OUT[3] ; PPU:inst9|Mux8_rtl_0     ; ROM  ;
+; PPU:inst9|PPU_DATA_OUT[4] ; PPU:inst9|Mux7_rtl_0     ; ROM  ;
+; PPU:inst9|PPU_DATA_OUT[5] ; PPU:inst9|Mux6_rtl_0     ; ROM  ;
+; PPU:inst9|PPU_DATA_OUT[6] ; PPU:inst9|Mux5_rtl_0     ; ROM  ;
+; PPU:inst9|PPU_DATA_OUT[7] ; PPU:inst9|Mux4_rtl_0     ; ROM  ;
 +---------------------------+--------------------------+------+
 
 
@@ -737,45 +731,45 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
 ; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[7][0]       ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[5][3]       ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[4][3]       ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[2][5]       ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[1][2]       ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[4][2]       ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[2][2]       ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[1][5]       ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[0][5]       ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |NES|PPU:inst9|SPRITE_CNT[0]                     ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[1][3]                 ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[5][3]                 ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[9][4]                 ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[14][1]                ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[17][2]                ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[21][0]                ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[27][7]                ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[31][1]                ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |NES|MemoryController:inst8|HC[3]                ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |NES|DVI_OUT:inst1|TMDS_ENCODE:red_inst|oDATA[6] ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |NES|DVI_OUT:inst1|TMDS_ENCODE:grn_inst|oDATA[2] ;
-; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |NES|DVI_OUT:inst1|TMDS_ENCODE:blu_inst|oDATA[3] ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |NES|PPU:inst9|SPRITE_CNT[3]                     ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[3][5]                 ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[5][4]                 ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[9][5]                 ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[13][2]                ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[17][7]                ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[21][6]                ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[27][5]                ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |NES|PPU:inst9|SPRITE_REGS[29][2]                ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |NES|MemoryController:inst8|HC[5]                ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |NES|DVI_OUT:inst1|TMDS_ENCODE:red_inst|oDATA[3] ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |NES|DVI_OUT:inst1|TMDS_ENCODE:grn_inst|oDATA[3] ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |NES|DVI_OUT:inst1|TMDS_ENCODE:blu_inst|oDATA[2] ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |NES|MemoryController:inst8|PR                   ;
-; 3:1                ; 18 bits   ; 36 LEs        ; 0 LEs                ; 36 LEs                 ; Yes        ; |NES|PPU:inst9|b[6]                              ;
+; 3:1                ; 18 bits   ; 36 LEs        ; 0 LEs                ; 36 LEs                 ; Yes        ; |NES|PPU:inst9|g[7]                              ;
 ; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[3][1]       ;
 ; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[6][2]       ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |NES|MemoryController:inst8|UADDR[5]             ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[6][5]       ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |NES|MemoryController:inst8|UADDR[0]             ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |NES|MemoryController:inst8|PPU_CTRL[6][7]       ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |NES|MemoryController:inst8|addr                 ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |NES|DVI_OUT:inst1|TMDS_ENCODE:red_inst|Add38    ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |NES|DVI_OUT:inst1|TMDS_ENCODE:grn_inst|Add38    ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |NES|DVI_OUT:inst1|TMDS_ENCODE:blu_inst|Add38    ;
-; 8:1                ; 17 bits   ; 85 LEs        ; 85 LEs               ; 0 LEs                  ; No         ; |NES|PPU:inst9|Mux31                             ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |NES|PPU:inst9|Mux26                             ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |NES|PPU:inst9|Mux74                             ;
+; 8:1                ; 17 bits   ; 85 LEs        ; 85 LEs               ; 0 LEs                  ; No         ; |NES|PPU:inst9|Mux42                             ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |NES|PPU:inst9|Mux34                             ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |NES|PPU:inst9|Mux81                             ;
 ; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |NES|DVI_OUT:inst1|TMDS_ENCODE:red_inst|Add38    ;
 ; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |NES|DVI_OUT:inst1|TMDS_ENCODE:grn_inst|Add38    ;
 ; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |NES|DVI_OUT:inst1|TMDS_ENCODE:blu_inst|Add38    ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |NES|PPU:inst9|ATR_TBL                           ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |NES|PPU:inst9|NAME_TBL                          ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |NES|MemoryController:inst8|readAddr             ;
 ; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; No         ; |NES|MemoryController:inst8|readAddr             ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |NES|CPU_6502:inst|OP_TYPE                       ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |NES|CPU_6502:inst|OP_TYPE                       ;
-; 64:1               ; 29 bits   ; 1218 LEs      ; 1218 LEs             ; 0 LEs                  ; No         ; |NES|PPU:inst9|Mux102                            ;
+; 64:1               ; 29 bits   ; 1218 LEs      ; 1218 LEs             ; 0 LEs                  ; No         ; |NES|PPU:inst9|Mux109                            ;
 ; 12:1               ; 2 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |NES|PPU:inst9|PALETTE_ROM.raddr_a[2]            ;
 ; 9:1                ; 2 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; No         ; |NES|CPU_6502:inst|OP_TYPE                       ;
 ; 11:1               ; 8 bits    ; 56 LEs        ; 16 LEs               ; 40 LEs                 ; No         ; |NES|CPU_6502:inst|Add28                         ;
@@ -823,7 +817,7 @@ Encoding Type:  One-Hot
 
 
 +---------------------------------------------------------------------------------------------------+
-; Source assignments for MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_2qf1:auto_generated ;
+; Source assignments for MemoryController:inst8|altsyncram:MEM_rtl_0|altsyncram_jrf1:auto_generated ;
 +---------------------------------+--------------------+------+-------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                  ;
 +---------------------------------+--------------------+------+-------------------------------------+
@@ -849,8 +843,26 @@ Encoding Type:  One-Hot
 +---------------------------------+--------------------+------+----------------------------+
 
 
++---------------------------------------------------------------------------------------+
+; Source assignments for PPU:inst9|altsyncram:Mux11_rtl_0|altsyncram_7lv:auto_generated ;
++---------------------------------+--------------------+------+-------------------------+
+; Assignment                      ; Value              ; From ; To                      ;
++---------------------------------+--------------------+------+-------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                       ;
++---------------------------------+--------------------+------+-------------------------+
+
+
++---------------------------------------------------------------------------------------+
+; Source assignments for PPU:inst9|altsyncram:Mux10_rtl_0|altsyncram_8lv:auto_generated ;
++---------------------------------+--------------------+------+-------------------------+
+; Assignment                      ; Value              ; From ; To                      ;
++---------------------------------+--------------------+------+-------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                       ;
++---------------------------------+--------------------+------+-------------------------+
+
+
 +--------------------------------------------------------------------------------------+
-; Source assignments for PPU:inst9|altsyncram:Mux7_rtl_0|altsyncram_7lv:auto_generated ;
+; Source assignments for PPU:inst9|altsyncram:Mux9_rtl_0|altsyncram_9lv:auto_generated ;
 +---------------------------------+--------------------+------+------------------------+
 ; Assignment                      ; Value              ; From ; To                     ;
 +---------------------------------+--------------------+------+------------------------+
@@ -859,7 +871,7 @@ Encoding Type:  One-Hot
 
 
 +--------------------------------------------------------------------------------------+
-; Source assignments for PPU:inst9|altsyncram:Mux6_rtl_0|altsyncram_8lv:auto_generated ;
+; Source assignments for PPU:inst9|altsyncram:Mux8_rtl_0|altsyncram_alv:auto_generated ;
 +---------------------------------+--------------------+------+------------------------+
 ; Assignment                      ; Value              ; From ; To                     ;
 +---------------------------------+--------------------+------+------------------------+
@@ -868,7 +880,7 @@ Encoding Type:  One-Hot
 
 
 +--------------------------------------------------------------------------------------+
-; Source assignments for PPU:inst9|altsyncram:Mux5_rtl_0|altsyncram_9lv:auto_generated ;
+; Source assignments for PPU:inst9|altsyncram:Mux7_rtl_0|altsyncram_blv:auto_generated ;
 +---------------------------------+--------------------+------+------------------------+
 ; Assignment                      ; Value              ; From ; To                     ;
 +---------------------------------+--------------------+------+------------------------+
@@ -877,7 +889,7 @@ Encoding Type:  One-Hot
 
 
 +--------------------------------------------------------------------------------------+
-; Source assignments for PPU:inst9|altsyncram:Mux4_rtl_0|altsyncram_alv:auto_generated ;
+; Source assignments for PPU:inst9|altsyncram:Mux6_rtl_0|altsyncram_clv:auto_generated ;
 +---------------------------------+--------------------+------+------------------------+
 ; Assignment                      ; Value              ; From ; To                     ;
 +---------------------------------+--------------------+------+------------------------+
@@ -886,7 +898,7 @@ Encoding Type:  One-Hot
 
 
 +--------------------------------------------------------------------------------------+
-; Source assignments for PPU:inst9|altsyncram:Mux3_rtl_0|altsyncram_blv:auto_generated ;
+; Source assignments for PPU:inst9|altsyncram:Mux5_rtl_0|altsyncram_dlv:auto_generated ;
 +---------------------------------+--------------------+------+------------------------+
 ; Assignment                      ; Value              ; From ; To                     ;
 +---------------------------------+--------------------+------+------------------------+
@@ -895,25 +907,7 @@ Encoding Type:  One-Hot
 
 
 +--------------------------------------------------------------------------------------+
-; Source assignments for PPU:inst9|altsyncram:Mux2_rtl_0|altsyncram_clv:auto_generated ;
-+---------------------------------+--------------------+------+------------------------+
-; Assignment                      ; Value              ; From ; To                     ;
-+---------------------------------+--------------------+------+------------------------+
-; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                      ;
-+---------------------------------+--------------------+------+------------------------+
-
-
-+--------------------------------------------------------------------------------------+
-; Source assignments for PPU:inst9|altsyncram:Mux1_rtl_0|altsyncram_dlv:auto_generated ;
-+---------------------------------+--------------------+------+------------------------+
-; Assignment                      ; Value              ; From ; To                     ;
-+---------------------------------+--------------------+------+------------------------+
-; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                      ;
-+---------------------------------+--------------------+------+------------------------+
-
-
-+--------------------------------------------------------------------------------------+
-; Source assignments for PPU:inst9|altsyncram:Mux0_rtl_0|altsyncram_elv:auto_generated ;
+; Source assignments for PPU:inst9|altsyncram:Mux4_rtl_0|altsyncram_elv:auto_generated ;
 +---------------------------------+--------------------+------+------------------------+
 ; Assignment                      ; Value              ; From ; To                     ;
 +---------------------------------+--------------------+------+------------------------+
@@ -1328,6 +1322,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: HIGH_IMPEDANCE:inst3 ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; data_width     ; 2     ; Signed Integer                           ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: MemoryController:inst8|altsyncram:CPU_MEM_rtl_0    ;
 +------------------------------------+-----------------------------------------------+----------------+
@@ -1432,7 +1436,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE             ; Untyped                         ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ  ; Untyped                         ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ  ; Untyped                         ;
-; INIT_FILE                          ; games/Super Mario.mif ; Untyped                         ;
+; INIT_FILE                          ; games/Donkey_Kong.mif ; Untyped                         ;
 ; INIT_FILE_LAYOUT                   ; PORT_A                ; Untyped                         ;
 ; MAXIMUM_DEPTH                      ; 0                     ; Untyped                         ;
 ; CLOCK_ENABLE_INPUT_A               ; NORMAL                ; Untyped                         ;
@@ -1445,7 +1449,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                 ; Untyped                         ;
 ; WIDTH_ECCSTATUS                    ; 3                     ; Untyped                         ;
 ; DEVICE_FAMILY                      ; Cyclone 10 LP         ; Untyped                         ;
-; CBXI_PARAMETER                     ; altsyncram_2qf1       ; Untyped                         ;
+; CBXI_PARAMETER                     ; altsyncram_jrf1       ; Untyped                         ;
 +------------------------------------+-----------------------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1572,130 +1576,130 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux7_rtl_0 ;
-+------------------------------------+----------------------+----------------------+
-; Parameter Name                     ; Value                ; Type                 ;
-+------------------------------------+----------------------+----------------------+
-; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped              ;
-; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY           ;
-; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY         ;
-; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE         ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE       ;
-; WIDTH_BYTEENA                      ; 1                    ; Untyped              ;
-; OPERATION_MODE                     ; ROM                  ; Untyped              ;
-; WIDTH_A                            ; 1                    ; Untyped              ;
-; WIDTHAD_A                          ; 13                   ; Untyped              ;
-; NUMWORDS_A                         ; 8192                 ; Untyped              ;
-; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped              ;
-; ADDRESS_ACLR_A                     ; NONE                 ; Untyped              ;
-; OUTDATA_ACLR_A                     ; NONE                 ; Untyped              ;
-; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped              ;
-; INDATA_ACLR_A                      ; NONE                 ; Untyped              ;
-; BYTEENA_ACLR_A                     ; NONE                 ; Untyped              ;
-; WIDTH_B                            ; 1                    ; Untyped              ;
-; WIDTHAD_B                          ; 1                    ; Untyped              ;
-; NUMWORDS_B                         ; 1                    ; Untyped              ;
-; INDATA_REG_B                       ; CLOCK1               ; Untyped              ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped              ;
-; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped              ;
-; ADDRESS_REG_B                      ; CLOCK1               ; Untyped              ;
-; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped              ;
-; BYTEENA_REG_B                      ; CLOCK1               ; Untyped              ;
-; INDATA_ACLR_B                      ; NONE                 ; Untyped              ;
-; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped              ;
-; ADDRESS_ACLR_B                     ; NONE                 ; Untyped              ;
-; OUTDATA_ACLR_B                     ; NONE                 ; Untyped              ;
-; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped              ;
-; BYTEENA_ACLR_B                     ; NONE                 ; Untyped              ;
-; WIDTH_BYTEENA_A                    ; 1                    ; Untyped              ;
-; WIDTH_BYTEENA_B                    ; 1                    ; Untyped              ;
-; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped              ;
-; BYTE_SIZE                          ; 8                    ; Untyped              ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped              ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped              ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped              ;
-; INIT_FILE                          ; NES.NES0.rtl.mif     ; Untyped              ;
-; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped              ;
-; MAXIMUM_DEPTH                      ; 0                    ; Untyped              ;
-; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped              ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped              ;
-; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped              ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped              ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped              ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped              ;
-; ENABLE_ECC                         ; FALSE                ; Untyped              ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped              ;
-; WIDTH_ECCSTATUS                    ; 3                    ; Untyped              ;
-; DEVICE_FAMILY                      ; Cyclone 10 LP        ; Untyped              ;
-; CBXI_PARAMETER                     ; altsyncram_7lv       ; Untyped              ;
-+------------------------------------+----------------------+----------------------+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux11_rtl_0 ;
++------------------------------------+----------------------+-----------------------+
+; Parameter Name                     ; Value                ; Type                  ;
++------------------------------------+----------------------+-----------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped               ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY            ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY          ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE          ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE        ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped               ;
+; OPERATION_MODE                     ; ROM                  ; Untyped               ;
+; WIDTH_A                            ; 1                    ; Untyped               ;
+; WIDTHAD_A                          ; 13                   ; Untyped               ;
+; NUMWORDS_A                         ; 8192                 ; Untyped               ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped               ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped               ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped               ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped               ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped               ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped               ;
+; WIDTH_B                            ; 1                    ; Untyped               ;
+; WIDTHAD_B                          ; 1                    ; Untyped               ;
+; NUMWORDS_B                         ; 1                    ; Untyped               ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped               ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped               ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped               ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped               ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped               ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped               ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped               ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped               ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped               ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped               ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped               ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped               ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Untyped               ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped               ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped               ;
+; BYTE_SIZE                          ; 8                    ; Untyped               ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped               ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped               ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped               ;
+; INIT_FILE                          ; NES.NES0.rtl.mif     ; Untyped               ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped               ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped               ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped               ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped               ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped               ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped               ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped               ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped               ;
+; ENABLE_ECC                         ; FALSE                ; Untyped               ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped               ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped               ;
+; DEVICE_FAMILY                      ; Cyclone 10 LP        ; Untyped               ;
+; CBXI_PARAMETER                     ; altsyncram_7lv       ; Untyped               ;
++------------------------------------+----------------------+-----------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux10_rtl_0 ;
++------------------------------------+----------------------+-----------------------+
+; Parameter Name                     ; Value                ; Type                  ;
++------------------------------------+----------------------+-----------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped               ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY            ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY          ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE          ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE        ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped               ;
+; OPERATION_MODE                     ; ROM                  ; Untyped               ;
+; WIDTH_A                            ; 1                    ; Untyped               ;
+; WIDTHAD_A                          ; 13                   ; Untyped               ;
+; NUMWORDS_A                         ; 8192                 ; Untyped               ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped               ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped               ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped               ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped               ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped               ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped               ;
+; WIDTH_B                            ; 1                    ; Untyped               ;
+; WIDTHAD_B                          ; 1                    ; Untyped               ;
+; NUMWORDS_B                         ; 1                    ; Untyped               ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped               ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped               ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped               ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped               ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped               ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped               ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped               ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped               ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped               ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped               ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped               ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped               ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Untyped               ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped               ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped               ;
+; BYTE_SIZE                          ; 8                    ; Untyped               ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped               ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped               ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped               ;
+; INIT_FILE                          ; NES.NES1.rtl.mif     ; Untyped               ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped               ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped               ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped               ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped               ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped               ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped               ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped               ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped               ;
+; ENABLE_ECC                         ; FALSE                ; Untyped               ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped               ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped               ;
+; DEVICE_FAMILY                      ; Cyclone 10 LP        ; Untyped               ;
+; CBXI_PARAMETER                     ; altsyncram_8lv       ; Untyped               ;
++------------------------------------+----------------------+-----------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +----------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux6_rtl_0 ;
-+------------------------------------+----------------------+----------------------+
-; Parameter Name                     ; Value                ; Type                 ;
-+------------------------------------+----------------------+----------------------+
-; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped              ;
-; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY           ;
-; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY         ;
-; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE         ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE       ;
-; WIDTH_BYTEENA                      ; 1                    ; Untyped              ;
-; OPERATION_MODE                     ; ROM                  ; Untyped              ;
-; WIDTH_A                            ; 1                    ; Untyped              ;
-; WIDTHAD_A                          ; 13                   ; Untyped              ;
-; NUMWORDS_A                         ; 8192                 ; Untyped              ;
-; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped              ;
-; ADDRESS_ACLR_A                     ; NONE                 ; Untyped              ;
-; OUTDATA_ACLR_A                     ; NONE                 ; Untyped              ;
-; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped              ;
-; INDATA_ACLR_A                      ; NONE                 ; Untyped              ;
-; BYTEENA_ACLR_A                     ; NONE                 ; Untyped              ;
-; WIDTH_B                            ; 1                    ; Untyped              ;
-; WIDTHAD_B                          ; 1                    ; Untyped              ;
-; NUMWORDS_B                         ; 1                    ; Untyped              ;
-; INDATA_REG_B                       ; CLOCK1               ; Untyped              ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped              ;
-; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped              ;
-; ADDRESS_REG_B                      ; CLOCK1               ; Untyped              ;
-; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped              ;
-; BYTEENA_REG_B                      ; CLOCK1               ; Untyped              ;
-; INDATA_ACLR_B                      ; NONE                 ; Untyped              ;
-; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped              ;
-; ADDRESS_ACLR_B                     ; NONE                 ; Untyped              ;
-; OUTDATA_ACLR_B                     ; NONE                 ; Untyped              ;
-; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped              ;
-; BYTEENA_ACLR_B                     ; NONE                 ; Untyped              ;
-; WIDTH_BYTEENA_A                    ; 1                    ; Untyped              ;
-; WIDTH_BYTEENA_B                    ; 1                    ; Untyped              ;
-; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped              ;
-; BYTE_SIZE                          ; 8                    ; Untyped              ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped              ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped              ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped              ;
-; INIT_FILE                          ; NES.NES1.rtl.mif     ; Untyped              ;
-; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped              ;
-; MAXIMUM_DEPTH                      ; 0                    ; Untyped              ;
-; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped              ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped              ;
-; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped              ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped              ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped              ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped              ;
-; ENABLE_ECC                         ; FALSE                ; Untyped              ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped              ;
-; WIDTH_ECCSTATUS                    ; 3                    ; Untyped              ;
-; DEVICE_FAMILY                      ; Cyclone 10 LP        ; Untyped              ;
-; CBXI_PARAMETER                     ; altsyncram_8lv       ; Untyped              ;
-+------------------------------------+----------------------+----------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux5_rtl_0 ;
+; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux9_rtl_0 ;
 +------------------------------------+----------------------+----------------------+
 ; Parameter Name                     ; Value                ; Type                 ;
 +------------------------------------+----------------------+----------------------+
@@ -1756,7 +1760,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux4_rtl_0 ;
+; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux8_rtl_0 ;
 +------------------------------------+----------------------+----------------------+
 ; Parameter Name                     ; Value                ; Type                 ;
 +------------------------------------+----------------------+----------------------+
@@ -1817,7 +1821,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux3_rtl_0 ;
+; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux7_rtl_0 ;
 +------------------------------------+----------------------+----------------------+
 ; Parameter Name                     ; Value                ; Type                 ;
 +------------------------------------+----------------------+----------------------+
@@ -1878,7 +1882,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux2_rtl_0 ;
+; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux6_rtl_0 ;
 +------------------------------------+----------------------+----------------------+
 ; Parameter Name                     ; Value                ; Type                 ;
 +------------------------------------+----------------------+----------------------+
@@ -1939,7 +1943,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux1_rtl_0 ;
+; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux5_rtl_0 ;
 +------------------------------------+----------------------+----------------------+
 ; Parameter Name                     ; Value                ; Type                 ;
 +------------------------------------+----------------------+----------------------+
@@ -2000,7 +2004,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux0_rtl_0 ;
+; Parameter Settings for Inferred Entity Instance: PPU:inst9|altsyncram:Mux4_rtl_0 ;
 +------------------------------------+----------------------+----------------------+
 ; Parameter Name                     ; Value                ; Type                 ;
 +------------------------------------+----------------------+----------------------+
@@ -2127,6 +2131,50 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- OUTDATA_REG_B                      ; UNREGISTERED                                    ;
 ;     -- RAM_BLOCK_TYPE                     ; AUTO                                            ;
 ;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; OLD_DATA                                        ;
+; Entity Instance                           ; PPU:inst9|altsyncram:Mux11_rtl_0                ;
+;     -- OPERATION_MODE                     ; ROM                                             ;
+;     -- WIDTH_A                            ; 1                                               ;
+;     -- NUMWORDS_A                         ; 8192                                            ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                    ;
+;     -- WIDTH_B                            ; 1                                               ;
+;     -- NUMWORDS_B                         ; 1                                               ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                          ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                    ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                            ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                       ;
+; Entity Instance                           ; PPU:inst9|altsyncram:Mux10_rtl_0                ;
+;     -- OPERATION_MODE                     ; ROM                                             ;
+;     -- WIDTH_A                            ; 1                                               ;
+;     -- NUMWORDS_A                         ; 8192                                            ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                    ;
+;     -- WIDTH_B                            ; 1                                               ;
+;     -- NUMWORDS_B                         ; 1                                               ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                          ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                    ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                            ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                       ;
+; Entity Instance                           ; PPU:inst9|altsyncram:Mux9_rtl_0                 ;
+;     -- OPERATION_MODE                     ; ROM                                             ;
+;     -- WIDTH_A                            ; 1                                               ;
+;     -- NUMWORDS_A                         ; 8192                                            ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                    ;
+;     -- WIDTH_B                            ; 1                                               ;
+;     -- NUMWORDS_B                         ; 1                                               ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                          ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                    ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                            ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                       ;
+; Entity Instance                           ; PPU:inst9|altsyncram:Mux8_rtl_0                 ;
+;     -- OPERATION_MODE                     ; ROM                                             ;
+;     -- WIDTH_A                            ; 1                                               ;
+;     -- NUMWORDS_A                         ; 8192                                            ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                    ;
+;     -- WIDTH_B                            ; 1                                               ;
+;     -- NUMWORDS_B                         ; 1                                               ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                          ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                    ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                            ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                       ;
 ; Entity Instance                           ; PPU:inst9|altsyncram:Mux7_rtl_0                 ;
 ;     -- OPERATION_MODE                     ; ROM                                             ;
 ;     -- WIDTH_A                            ; 1                                               ;
@@ -2171,50 +2219,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- OUTDATA_REG_B                      ; UNREGISTERED                                    ;
 ;     -- RAM_BLOCK_TYPE                     ; AUTO                                            ;
 ;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                       ;
-; Entity Instance                           ; PPU:inst9|altsyncram:Mux3_rtl_0                 ;
-;     -- OPERATION_MODE                     ; ROM                                             ;
-;     -- WIDTH_A                            ; 1                                               ;
-;     -- NUMWORDS_A                         ; 8192                                            ;
-;     -- OUTDATA_REG_A                      ; UNREGISTERED                                    ;
-;     -- WIDTH_B                            ; 1                                               ;
-;     -- NUMWORDS_B                         ; 1                                               ;
-;     -- ADDRESS_REG_B                      ; CLOCK1                                          ;
-;     -- OUTDATA_REG_B                      ; UNREGISTERED                                    ;
-;     -- RAM_BLOCK_TYPE                     ; AUTO                                            ;
-;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                       ;
-; Entity Instance                           ; PPU:inst9|altsyncram:Mux2_rtl_0                 ;
-;     -- OPERATION_MODE                     ; ROM                                             ;
-;     -- WIDTH_A                            ; 1                                               ;
-;     -- NUMWORDS_A                         ; 8192                                            ;
-;     -- OUTDATA_REG_A                      ; UNREGISTERED                                    ;
-;     -- WIDTH_B                            ; 1                                               ;
-;     -- NUMWORDS_B                         ; 1                                               ;
-;     -- ADDRESS_REG_B                      ; CLOCK1                                          ;
-;     -- OUTDATA_REG_B                      ; UNREGISTERED                                    ;
-;     -- RAM_BLOCK_TYPE                     ; AUTO                                            ;
-;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                       ;
-; Entity Instance                           ; PPU:inst9|altsyncram:Mux1_rtl_0                 ;
-;     -- OPERATION_MODE                     ; ROM                                             ;
-;     -- WIDTH_A                            ; 1                                               ;
-;     -- NUMWORDS_A                         ; 8192                                            ;
-;     -- OUTDATA_REG_A                      ; UNREGISTERED                                    ;
-;     -- WIDTH_B                            ; 1                                               ;
-;     -- NUMWORDS_B                         ; 1                                               ;
-;     -- ADDRESS_REG_B                      ; CLOCK1                                          ;
-;     -- OUTDATA_REG_B                      ; UNREGISTERED                                    ;
-;     -- RAM_BLOCK_TYPE                     ; AUTO                                            ;
-;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                       ;
-; Entity Instance                           ; PPU:inst9|altsyncram:Mux0_rtl_0                 ;
-;     -- OPERATION_MODE                     ; ROM                                             ;
-;     -- WIDTH_A                            ; 1                                               ;
-;     -- NUMWORDS_A                         ; 8192                                            ;
-;     -- OUTDATA_REG_A                      ; UNREGISTERED                                    ;
-;     -- WIDTH_B                            ; 1                                               ;
-;     -- NUMWORDS_B                         ; 1                                               ;
-;     -- ADDRESS_REG_B                      ; CLOCK1                                          ;
-;     -- OUTDATA_REG_B                      ; UNREGISTERED                                    ;
-;     -- RAM_BLOCK_TYPE                     ; AUTO                                            ;
-;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                       ;
 +-------------------------------------------+-------------------------------------------------+
 
 
@@ -2223,31 +2227,32 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 21                          ;
+; boundary_port         ; 15                          ;
 ; cycloneiii_ddio_out   ; 4                           ;
-; cycloneiii_ff         ; 3073                        ;
+; cycloneiii_ff         ; 3065                        ;
 ;     CLR               ; 1                           ;
-;     ENA               ; 2508                        ;
+;     ENA               ; 2500                        ;
 ;     ENA SCLR          ; 212                         ;
 ;     ENA SLD           ; 19                          ;
 ;     SCLR              ; 44                          ;
 ;     SLD               ; 44                          ;
 ;     plain             ; 245                         ;
-; cycloneiii_lcell_comb ; 13907                       ;
-;     arith             ; 526                         ;
+; cycloneiii_io_obuf    ; 2                           ;
+; cycloneiii_lcell_comb ; 12094                       ;
+;     arith             ; 536                         ;
 ;         2 data inputs ; 192                         ;
-;         3 data inputs ; 334                         ;
-;     normal            ; 13381                       ;
-;         0 data inputs ; 17                          ;
-;         1 data inputs ; 104                         ;
-;         2 data inputs ; 295                         ;
-;         3 data inputs ; 1674                        ;
-;         4 data inputs ; 11291                       ;
+;         3 data inputs ; 344                         ;
+;     normal            ; 11558                       ;
+;         0 data inputs ; 15                          ;
+;         1 data inputs ; 101                         ;
+;         2 data inputs ; 309                         ;
+;         3 data inputs ; 1561                        ;
+;         4 data inputs ; 9572                        ;
 ; cycloneiii_pll        ; 1                           ;
 ; cycloneiii_ram_block  ; 64                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 33.50                       ;
-; Average LUT depth     ; 18.24                       ;
+; Max LUT depth         ; 32.50                       ;
+; Average LUT depth     ; 16.69                       ;
 +-----------------------+-----------------------------+
 
 
@@ -2256,7 +2261,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:01:12     ;
+; Top            ; 00:03:25     ;
 +----------------+--------------+
 
 
@@ -2265,80 +2270,79 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sun Mar 24 20:29:00 2024
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Sat Mar 30 18:05:31 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off NES -c NES
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file hexdriver.tdf
-    Info (12023): Found entity 1: HEXDriver File: C:/Users/danie/Desktop/EmptyVidorProject/NES/HEXDriver.tdf Line: 1
+    Info (12023): Found entity 1: HEXDriver File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/HEXDriver.tdf Line: 1
 Info (12021): Found 2 design units, including 1 entities, in source file vga_adapter.vhd
-    Info (12022): Found design unit 1: VGa_ADAPTER-behav File: C:/Users/danie/Desktop/EmptyVidorProject/NES/VGA_adapter.vhd Line: 20
-    Info (12023): Found entity 1: VGA_ADAPTER File: C:/Users/danie/Desktop/EmptyVidorProject/NES/VGA_adapter.vhd Line: 6
+    Info (12022): Found design unit 1: VGa_ADAPTER-behav File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/VGA_adapter.vhd Line: 20
+    Info (12023): Found entity 1: VGA_ADAPTER File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/VGA_adapter.vhd Line: 6
 Info (12021): Found 1 design units, including 0 entities, in source file rom_init.vhd
-    Info (12022): Found design unit 1: ROMS File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ROM_INIT.vhd Line: 6
+    Info (12022): Found design unit 1: ROMS File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ROM_INIT.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file ppu.vhd
-    Info (12022): Found design unit 1: PPU-behav File: C:/Users/danie/Desktop/EmptyVidorProject/NES/PPU.vhd Line: 51
-    Info (12023): Found entity 1: PPU File: C:/Users/danie/Desktop/EmptyVidorProject/NES/PPU.vhd Line: 8
+    Info (12022): Found design unit 1: PPU-behav File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/PPU.vhd Line: 51
+    Info (12023): Found entity 1: PPU File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/PPU.vhd Line: 8
 Info (12021): Found 1 design units, including 0 entities, in source file opcode_constants.vhd
-    Info (12022): Found design unit 1: opcodes File: C:/Users/danie/Desktop/EmptyVidorProject/NES/opcode_constants.vhd Line: 5
+    Info (12022): Found design unit 1: opcodes File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/opcode_constants.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file cpu_6502.vhd
-    Info (12022): Found design unit 1: CPU_6502-RTL File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 43
-    Info (12023): Found entity 1: CPU_6502 File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 8
+    Info (12022): Found design unit 1: CPU_6502-RTL File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 43
+    Info (12023): Found entity 1: CPU_6502 File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 8
 Info (12021): Found 2 design units, including 1 entities, in source file clkdiv.vhd
-    Info (12022): Found design unit 1: CLKDIV-rtl File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CLKDIV.vhd Line: 17
-    Info (12023): Found entity 1: CLKDIV File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CLKDIV.vhd Line: 6
+    Info (12022): Found design unit 1: CLKDIV-rtl File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CLKDIV.vhd Line: 17
+    Info (12023): Found entity 1: CLKDIV File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CLKDIV.vhd Line: 6
 Info (12021): Found 4 design units, including 1 entities, in source file memorycontroller.vhd
-    Info (12022): Found design unit 1: PPU_CONTROL_REGS File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 4
-    Info (12022): Found design unit 2: OTHER_CONTROL_REGS File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 20
-    Info (12022): Found design unit 3: MemoryController-rtl File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 61
-    Info (12023): Found entity 1: MemoryController File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 32
+    Info (12022): Found design unit 1: PPU_CONTROL_REGS File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 4
+    Info (12022): Found design unit 2: OTHER_CONTROL_REGS File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 20
+    Info (12022): Found design unit 3: MemoryController-rtl File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 61
+    Info (12023): Found entity 1: MemoryController File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 32
 Info (12021): Found 2 design units, including 1 entities, in source file vidor50pll.vhd
-    Info (12022): Found design unit 1: vidor50pll-SYN File: C:/Users/danie/Desktop/EmptyVidorProject/NES/vidor50PLL.vhd Line: 56
-    Info (12023): Found entity 1: vidor50PLL File: C:/Users/danie/Desktop/EmptyVidorProject/NES/vidor50PLL.vhd Line: 43
+    Info (12022): Found design unit 1: vidor50pll-SYN File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/vidor50PLL.vhd Line: 56
+    Info (12023): Found entity 1: vidor50PLL File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/vidor50PLL.vhd Line: 43
 Info (12021): Found 1 design units, including 1 entities, in source file vidor_clock.bdf
     Info (12023): Found entity 1: vidor_clock
 Info (12021): Found 1 design units, including 1 entities, in source file nes.bdf
     Info (12023): Found entity 1: NES
 Info (12021): Found 1 design units, including 1 entities, in source file ip/system_pll/system_pll.v
-    Info (12023): Found entity 1: SYSTEM_PLL File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/SYSTEM_PLL/SYSTEM_PLL.v Line: 40
+    Info (12023): Found entity 1: SYSTEM_PLL File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/SYSTEM_PLL/SYSTEM_PLL.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file ip/dvi_out/tmds_encode.v
-    Info (12023): Found entity 1: TMDS_ENCODE File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/DVI_OUT/TMDS_ENCODE.v Line: 21
-Warning (10890): Verilog HDL Attribute warning at DVI_OUT.v(34): overriding existing value for attribute "ALTERA_ATTRIBUTE" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/DVI_OUT/DVI_OUT.v Line: 34
+    Info (12023): Found entity 1: TMDS_ENCODE File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/DVI_OUT/TMDS_ENCODE.v Line: 21
+Warning (10890): Verilog HDL Attribute warning at DVI_OUT.v(34): overriding existing value for attribute "ALTERA_ATTRIBUTE" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/DVI_OUT/DVI_OUT.v Line: 34
 Info (12021): Found 1 design units, including 1 entities, in source file ip/dvi_out/dvi_out.v
-    Info (12023): Found entity 1: DVI_OUT File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/DVI_OUT/DVI_OUT.v Line: 21
+    Info (12023): Found entity 1: DVI_OUT File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/DVI_OUT/DVI_OUT.v Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file ip/hdmi/tmds_channel.sv
-    Info (12023): Found entity 1: tmds_channel File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/tmds_channel.sv Line: 4
+    Info (12023): Found entity 1: tmds_channel File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/tmds_channel.sv Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file ip/hdmi/source_product_description_info_frame.sv
-    Info (12023): Found entity 1: source_product_description_info_frame File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/source_product_description_info_frame.sv Line: 5
+    Info (12023): Found entity 1: source_product_description_info_frame File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/source_product_description_info_frame.sv Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file ip/hdmi/serializer.sv
-    Info (12023): Found entity 1: serializer File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/serializer.sv Line: 1
+    Info (12023): Found entity 1: serializer File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/serializer.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file ip/hdmi/packet_picker.sv
-    Info (12023): Found entity 1: packet_picker File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/packet_picker.sv Line: 4
+    Info (12023): Found entity 1: packet_picker File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/packet_picker.sv Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file ip/hdmi/packet_assembler.sv
-    Info (12023): Found entity 1: packet_assembler File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/packet_assembler.sv Line: 4
+    Info (12023): Found entity 1: packet_assembler File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/packet_assembler.sv Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file ip/hdmi/hdmi.sv
-    Info (12023): Found entity 1: hdmi File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/hdmi.sv Line: 4
+    Info (12023): Found entity 1: hdmi File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/hdmi.sv Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file ip/hdmi/auxiliary_video_information_info_frame.sv
-    Info (12023): Found entity 1: auxiliary_video_information_info_frame File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/auxiliary_video_information_info_frame.sv Line: 5
+    Info (12023): Found entity 1: auxiliary_video_information_info_frame File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/auxiliary_video_information_info_frame.sv Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file ip/hdmi/audio_sample_packet.sv
-    Info (12023): Found entity 1: audio_sample_packet File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/audio_sample_packet.sv Line: 8
+    Info (12023): Found entity 1: audio_sample_packet File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/audio_sample_packet.sv Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file ip/hdmi/audio_info_frame.sv
-    Info (12023): Found entity 1: audio_info_frame File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/audio_info_frame.sv Line: 5
+    Info (12023): Found entity 1: audio_info_frame File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/audio_info_frame.sv Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file ip/hdmi/audio_clock_regeneration_packet.sv
-    Info (12023): Found entity 1: audio_clock_regeneration_packet File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/HDMI/audio_clock_regeneration_packet.sv Line: 5
+    Info (12023): Found entity 1: audio_clock_regeneration_packet File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/HDMI/audio_clock_regeneration_packet.sv Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file high_impedance.vhd
+    Info (12022): Found design unit 1: HIGH_IMPEDANCE-rtl File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/HIGH_IMPEDANCE.vhd Line: 20
+    Info (12023): Found entity 1: HIGH_IMPEDANCE File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/HIGH_IMPEDANCE.vhd Line: 6
 Info (12127): Elaborating entity "NES" for the top level hierarchy
-Warning (275086): Found inconsistent I/O type for element "DOUT"
-Warning (275080): Converted elements in bus name "DOUT" using legacy naming rules. Make any assignments on the new names, not on the original names.
-    Warning (275081): Converted element name(s) from "DOUT[7..0]" to "DOUT7..0"
-    Warning (275081): Converted element name(s) from "DOUT[15..8]" to "DOUT15..8"
 Info (12128): Elaborating entity "DVI_OUT" for hierarchy "DVI_OUT:inst1"
-Info (12128): Elaborating entity "TMDS_ENCODE" for hierarchy "DVI_OUT:inst1|TMDS_ENCODE:blu_inst" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/DVI_OUT/DVI_OUT.v Line: 47
-Warning (10230): Verilog HDL assignment warning at TMDS_ENCODE.v(70): truncated value with size 32 to match size of target (4) File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/DVI_OUT/TMDS_ENCODE.v Line: 70
-Warning (10230): Verilog HDL assignment warning at TMDS_ENCODE.v(91): truncated value with size 32 to match size of target (4) File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/DVI_OUT/TMDS_ENCODE.v Line: 91
-Info (12128): Elaborating entity "altddio_out" for hierarchy "DVI_OUT:inst1|altddio_out:ddio_inst" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/DVI_OUT/DVI_OUT.v Line: 94
-Info (12130): Elaborated megafunction instantiation "DVI_OUT:inst1|altddio_out:ddio_inst" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/DVI_OUT/DVI_OUT.v Line: 94
-Info (12133): Instantiated megafunction "DVI_OUT:inst1|altddio_out:ddio_inst" with the following parameter: File: C:/Users/danie/Desktop/EmptyVidorProject/NES/ip/DVI_OUT/DVI_OUT.v Line: 94
+Info (12128): Elaborating entity "TMDS_ENCODE" for hierarchy "DVI_OUT:inst1|TMDS_ENCODE:blu_inst" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/DVI_OUT/DVI_OUT.v Line: 47
+Warning (10230): Verilog HDL assignment warning at TMDS_ENCODE.v(70): truncated value with size 32 to match size of target (4) File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/DVI_OUT/TMDS_ENCODE.v Line: 70
+Warning (10230): Verilog HDL assignment warning at TMDS_ENCODE.v(91): truncated value with size 32 to match size of target (4) File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/DVI_OUT/TMDS_ENCODE.v Line: 91
+Info (12128): Elaborating entity "altddio_out" for hierarchy "DVI_OUT:inst1|altddio_out:ddio_inst" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/DVI_OUT/DVI_OUT.v Line: 94
+Info (12130): Elaborated megafunction instantiation "DVI_OUT:inst1|altddio_out:ddio_inst" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/DVI_OUT/DVI_OUT.v Line: 94
+Info (12133): Instantiated megafunction "DVI_OUT:inst1|altddio_out:ddio_inst" with the following parameter: File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/ip/DVI_OUT/DVI_OUT.v Line: 94
     Info (12134): Parameter "intended_device_family" = "Cyclone 10 LP"
     Info (12134): Parameter "invert_input_clocks" = "OFF"
     Info (12134): Parameter "lpm_hint" = "UNUSED"
@@ -2346,14 +2350,14 @@ Info (12133): Instantiated megafunction "DVI_OUT:inst1|altddio_out:ddio_inst" wi
     Info (12134): Parameter "power_up_high" = "OFF"
     Info (12134): Parameter "width" = "4"
 Info (12021): Found 1 design units, including 1 entities, in source file db/ddio_out_46d.tdf
-    Info (12023): Found entity 1: ddio_out_46d File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/ddio_out_46d.tdf Line: 28
+    Info (12023): Found entity 1: ddio_out_46d File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/ddio_out_46d.tdf Line: 28
 Info (12128): Elaborating entity "ddio_out_46d" for hierarchy "DVI_OUT:inst1|altddio_out:ddio_inst|ddio_out_46d:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altddio_out.tdf Line: 101
 Info (12128): Elaborating entity "PPU" for hierarchy "PPU:inst9"
-Warning (10873): Using initial value X (don't care) for net "PPU_STATUS_OUT[4..0]" at PPU.vhd(39) File: C:/Users/danie/Desktop/EmptyVidorProject/NES/PPU.vhd Line: 39
+Warning (10873): Using initial value X (don't care) for net "PPU_STATUS_OUT[4..0]" at PPU.vhd(39) File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/PPU.vhd Line: 39
 Info (12128): Elaborating entity "vidor50PLL" for hierarchy "vidor50PLL:inst6"
-Info (12128): Elaborating entity "altpll" for hierarchy "vidor50PLL:inst6|altpll:altpll_component" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/vidor50PLL.vhd Line: 157
-Info (12130): Elaborated megafunction instantiation "vidor50PLL:inst6|altpll:altpll_component" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/vidor50PLL.vhd Line: 157
-Info (12133): Instantiated megafunction "vidor50PLL:inst6|altpll:altpll_component" with the following parameter: File: C:/Users/danie/Desktop/EmptyVidorProject/NES/vidor50PLL.vhd Line: 157
+Info (12128): Elaborating entity "altpll" for hierarchy "vidor50PLL:inst6|altpll:altpll_component" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/vidor50PLL.vhd Line: 157
+Info (12130): Elaborated megafunction instantiation "vidor50PLL:inst6|altpll:altpll_component" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/vidor50PLL.vhd Line: 157
+Info (12133): Instantiated megafunction "vidor50PLL:inst6|altpll:altpll_component" with the following parameter: File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/vidor50PLL.vhd Line: 157
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "24"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -2418,7 +2422,7 @@ Info (12133): Instantiated megafunction "vidor50PLL:inst6|altpll:altpll_componen
     Info (12134): Parameter "self_reset_on_loss_lock" = "OFF"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/vidor50pll_altpll.v
-    Info (12023): Found entity 1: vidor50PLL_altpll File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/vidor50pll_altpll.v Line: 31
+    Info (12023): Found entity 1: vidor50PLL_altpll File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/vidor50pll_altpll.v Line: 31
 Info (12128): Elaborating entity "vidor50PLL_altpll" for hierarchy "vidor50PLL:inst6|altpll:altpll_component|vidor50PLL_altpll:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altpll.tdf Line: 898
 Info (12128): Elaborating entity "CLKDIV" for hierarchy "CLKDIV:inst4"
 Info (12128): Elaborating entity "LPM_CONSTANT" for hierarchy "LPM_CONSTANT:inst5"
@@ -2427,15 +2431,16 @@ Info (12133): Instantiated megafunction "LPM_CONSTANT:inst5" with the following 
     Info (12134): Parameter "LPM_CVALUE" = "13"
     Info (12134): Parameter "LPM_WIDTH" = "5"
 Info (12128): Elaborating entity "MemoryController" for hierarchy "MemoryController:inst8"
-Warning (10540): VHDL Signal Declaration warning at MemoryController.vhd(53): used explicit default value for signal "PPU_CHR_OFFSET" because signal was never assigned a value File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 53
-Warning (10492): VHDL Process Statement warning at MemoryController.vhd(309): signal "CPU_MEM" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 309
-Warning (10492): VHDL Process Statement warning at MemoryController.vhd(316): signal "PPU_STATUS_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 316
-Warning (10492): VHDL Process Statement warning at MemoryController.vhd(320): signal "PPU_READ_FRONT_BUFFER" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 320
+Warning (10540): VHDL Signal Declaration warning at MemoryController.vhd(53): used explicit default value for signal "PPU_CHR_OFFSET" because signal was never assigned a value File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 53
+Warning (10492): VHDL Process Statement warning at MemoryController.vhd(309): signal "CPU_MEM" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 309
+Warning (10492): VHDL Process Statement warning at MemoryController.vhd(316): signal "PPU_STATUS_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 316
+Warning (10492): VHDL Process Statement warning at MemoryController.vhd(320): signal "PPU_READ_FRONT_BUFFER" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 320
 Info (12128): Elaborating entity "CPU_6502" for hierarchy "CPU_6502:inst"
+Info (12128): Elaborating entity "HIGH_IMPEDANCE" for hierarchy "HIGH_IMPEDANCE:inst3"
 Warning (276020): Inferred RAM node "MemoryController:inst8|CPU_MEM_rtl_0" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
 Warning (276020): Inferred RAM node "MemoryController:inst8|MEM_rtl_0" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
 Info (276014): Found 1 instances of uninferred RAM logic
-    Info (276007): RAM logic "PPU:inst9|PALETTE_ROM" is uninferred due to asynchronous read logic File: C:/Users/danie/Desktop/EmptyVidorProject/NES/PPU.vhd Line: 105
+    Info (276007): RAM logic "PPU:inst9|PALETTE_ROM" is uninferred due to asynchronous read logic File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/PPU.vhd Line: 105
 Info (19000): Inferred 12 megafunctions from design logic
     Info (276029): Inferred altsyncram megafunction from the following design logic: "MemoryController:inst8|CPU_MEM_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
@@ -2468,7 +2473,7 @@ Info (19000): Inferred 12 megafunctions from design logic
         Info (286033): Parameter ADDRESS_REG_B set to CLOCK0
         Info (286033): Parameter INDATA_ACLR_A set to NONE
         Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
-        Info (286033): Parameter INIT_FILE set to games/Super Mario.mif
+        Info (286033): Parameter INIT_FILE set to games/Donkey_Kong.mif
     Info (276029): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|NAME_TBL_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
         Info (286033): Parameter WIDTH_A set to 8
@@ -2505,7 +2510,7 @@ Info (19000): Inferred 12 megafunctions from design logic
         Info (286033): Parameter INIT_FILE set to db/NES.ram1_PPU_14356.hdl.mif
         Info (286033): Parameter READ_DURING_WRITE_MODE_MIXED_PORTS set to OLD_DATA
         Info (286033): Parameter RDCONTROL_REG_B set to CLOCK0
-    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux7_rtl_0"
+    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux11_rtl_0"
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 1
         Info (286033): Parameter WIDTHAD_A set to 13
@@ -2513,7 +2518,7 @@ Info (19000): Inferred 12 megafunctions from design logic
         Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
         Info (286033): Parameter RAM_BLOCK_TYPE set to AUTO
         Info (286033): Parameter INIT_FILE set to NES.NES0.rtl.mif
-    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux6_rtl_0"
+    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux10_rtl_0"
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 1
         Info (286033): Parameter WIDTHAD_A set to 13
@@ -2521,7 +2526,7 @@ Info (19000): Inferred 12 megafunctions from design logic
         Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
         Info (286033): Parameter RAM_BLOCK_TYPE set to AUTO
         Info (286033): Parameter INIT_FILE set to NES.NES1.rtl.mif
-    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux5_rtl_0"
+    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux9_rtl_0"
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 1
         Info (286033): Parameter WIDTHAD_A set to 13
@@ -2529,7 +2534,7 @@ Info (19000): Inferred 12 megafunctions from design logic
         Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
         Info (286033): Parameter RAM_BLOCK_TYPE set to AUTO
         Info (286033): Parameter INIT_FILE set to NES.NES2.rtl.mif
-    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux4_rtl_0"
+    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux8_rtl_0"
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 1
         Info (286033): Parameter WIDTHAD_A set to 13
@@ -2537,7 +2542,7 @@ Info (19000): Inferred 12 megafunctions from design logic
         Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
         Info (286033): Parameter RAM_BLOCK_TYPE set to AUTO
         Info (286033): Parameter INIT_FILE set to NES.NES3.rtl.mif
-    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux3_rtl_0"
+    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux7_rtl_0"
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 1
         Info (286033): Parameter WIDTHAD_A set to 13
@@ -2545,7 +2550,7 @@ Info (19000): Inferred 12 megafunctions from design logic
         Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
         Info (286033): Parameter RAM_BLOCK_TYPE set to AUTO
         Info (286033): Parameter INIT_FILE set to NES.NES4.rtl.mif
-    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux2_rtl_0"
+    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux6_rtl_0"
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 1
         Info (286033): Parameter WIDTHAD_A set to 13
@@ -2553,7 +2558,7 @@ Info (19000): Inferred 12 megafunctions from design logic
         Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
         Info (286033): Parameter RAM_BLOCK_TYPE set to AUTO
         Info (286033): Parameter INIT_FILE set to NES.NES5.rtl.mif
-    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux1_rtl_0"
+    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux5_rtl_0"
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 1
         Info (286033): Parameter WIDTHAD_A set to 13
@@ -2561,7 +2566,7 @@ Info (19000): Inferred 12 megafunctions from design logic
         Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
         Info (286033): Parameter RAM_BLOCK_TYPE set to AUTO
         Info (286033): Parameter INIT_FILE set to NES.NES6.rtl.mif
-    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux0_rtl_0"
+    Info (276031): Inferred altsyncram megafunction from the following design logic: "PPU:inst9|Mux4_rtl_0"
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 1
         Info (286033): Parameter WIDTHAD_A set to 13
@@ -2587,7 +2592,7 @@ Info (12133): Instantiated megafunction "MemoryController:inst8|altsyncram:CPU_M
     Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
     Info (12134): Parameter "INIT_FILE" = "db/NES.ram0_MemoryController_6c6eecc2.hdl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_qsh1.tdf
-    Info (12023): Found entity 1: altsyncram_qsh1 File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_qsh1.tdf Line: 28
+    Info (12023): Found entity 1: altsyncram_qsh1 File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_qsh1.tdf Line: 28
 Info (12130): Elaborated megafunction instantiation "MemoryController:inst8|altsyncram:MEM_rtl_0"
 Info (12133): Instantiated megafunction "MemoryController:inst8|altsyncram:MEM_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
@@ -2604,15 +2609,15 @@ Info (12133): Instantiated megafunction "MemoryController:inst8|altsyncram:MEM_r
     Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK0"
     Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
     Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
-    Info (12134): Parameter "INIT_FILE" = "games/Super Mario.mif"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_2qf1.tdf
-    Info (12023): Found entity 1: altsyncram_2qf1 File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_2qf1.tdf Line: 34
+    Info (12134): Parameter "INIT_FILE" = "games/Donkey_Kong.mif"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_jrf1.tdf
+    Info (12023): Found entity 1: altsyncram_jrf1 File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_jrf1.tdf Line: 34
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_fsa.tdf
-    Info (12023): Found entity 1: decode_fsa File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/decode_fsa.tdf Line: 23
+    Info (12023): Found entity 1: decode_fsa File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/decode_fsa.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_88a.tdf
-    Info (12023): Found entity 1: decode_88a File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/decode_88a.tdf Line: 23
+    Info (12023): Found entity 1: decode_88a File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/decode_88a.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_vmb.tdf
-    Info (12023): Found entity 1: mux_vmb File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/mux_vmb.tdf Line: 23
+    Info (12023): Found entity 1: mux_vmb File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/mux_vmb.tdf Line: 23
 Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:NAME_TBL_rtl_0"
 Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:NAME_TBL_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
@@ -2633,7 +2638,7 @@ Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:NAME_TBL_rtl_0" wi
     Info (12134): Parameter "READ_DURING_WRITE_MODE_MIXED_PORTS" = "OLD_DATA"
     Info (12134): Parameter "RDCONTROL_REG_B" = "CLOCK0"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_cgn1.tdf
-    Info (12023): Found entity 1: altsyncram_cgn1 File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_cgn1.tdf Line: 28
+    Info (12023): Found entity 1: altsyncram_cgn1 File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_cgn1.tdf Line: 28
 Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:ATR_TBL_rtl_0"
 Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:ATR_TBL_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
@@ -2654,9 +2659,9 @@ Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:ATR_TBL_rtl_0" wit
     Info (12134): Parameter "READ_DURING_WRITE_MODE_MIXED_PORTS" = "OLD_DATA"
     Info (12134): Parameter "RDCONTROL_REG_B" = "CLOCK0"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_jan1.tdf
-    Info (12023): Found entity 1: altsyncram_jan1 File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_jan1.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux7_rtl_0"
-Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux7_rtl_0" with the following parameter:
+    Info (12023): Found entity 1: altsyncram_jan1 File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_jan1.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux11_rtl_0"
+Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux11_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "ROM"
     Info (12134): Parameter "WIDTH_A" = "1"
     Info (12134): Parameter "WIDTHAD_A" = "13"
@@ -2665,9 +2670,9 @@ Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux7_rtl_0" with t
     Info (12134): Parameter "RAM_BLOCK_TYPE" = "AUTO"
     Info (12134): Parameter "INIT_FILE" = "NES.NES0.rtl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_7lv.tdf
-    Info (12023): Found entity 1: altsyncram_7lv File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_7lv.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux6_rtl_0"
-Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux6_rtl_0" with the following parameter:
+    Info (12023): Found entity 1: altsyncram_7lv File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_7lv.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux10_rtl_0"
+Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux10_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "ROM"
     Info (12134): Parameter "WIDTH_A" = "1"
     Info (12134): Parameter "WIDTHAD_A" = "13"
@@ -2676,9 +2681,9 @@ Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux6_rtl_0" with t
     Info (12134): Parameter "RAM_BLOCK_TYPE" = "AUTO"
     Info (12134): Parameter "INIT_FILE" = "NES.NES1.rtl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_8lv.tdf
-    Info (12023): Found entity 1: altsyncram_8lv File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_8lv.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux5_rtl_0"
-Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux5_rtl_0" with the following parameter:
+    Info (12023): Found entity 1: altsyncram_8lv File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_8lv.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux9_rtl_0"
+Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux9_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "ROM"
     Info (12134): Parameter "WIDTH_A" = "1"
     Info (12134): Parameter "WIDTHAD_A" = "13"
@@ -2687,9 +2692,9 @@ Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux5_rtl_0" with t
     Info (12134): Parameter "RAM_BLOCK_TYPE" = "AUTO"
     Info (12134): Parameter "INIT_FILE" = "NES.NES2.rtl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_9lv.tdf
-    Info (12023): Found entity 1: altsyncram_9lv File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_9lv.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux4_rtl_0"
-Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux4_rtl_0" with the following parameter:
+    Info (12023): Found entity 1: altsyncram_9lv File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_9lv.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux8_rtl_0"
+Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux8_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "ROM"
     Info (12134): Parameter "WIDTH_A" = "1"
     Info (12134): Parameter "WIDTHAD_A" = "13"
@@ -2698,9 +2703,9 @@ Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux4_rtl_0" with t
     Info (12134): Parameter "RAM_BLOCK_TYPE" = "AUTO"
     Info (12134): Parameter "INIT_FILE" = "NES.NES3.rtl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_alv.tdf
-    Info (12023): Found entity 1: altsyncram_alv File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_alv.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux3_rtl_0"
-Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux3_rtl_0" with the following parameter:
+    Info (12023): Found entity 1: altsyncram_alv File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_alv.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux7_rtl_0"
+Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux7_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "ROM"
     Info (12134): Parameter "WIDTH_A" = "1"
     Info (12134): Parameter "WIDTHAD_A" = "13"
@@ -2709,9 +2714,9 @@ Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux3_rtl_0" with t
     Info (12134): Parameter "RAM_BLOCK_TYPE" = "AUTO"
     Info (12134): Parameter "INIT_FILE" = "NES.NES4.rtl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_blv.tdf
-    Info (12023): Found entity 1: altsyncram_blv File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_blv.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux2_rtl_0"
-Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux2_rtl_0" with the following parameter:
+    Info (12023): Found entity 1: altsyncram_blv File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_blv.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux6_rtl_0"
+Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux6_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "ROM"
     Info (12134): Parameter "WIDTH_A" = "1"
     Info (12134): Parameter "WIDTHAD_A" = "13"
@@ -2720,9 +2725,9 @@ Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux2_rtl_0" with t
     Info (12134): Parameter "RAM_BLOCK_TYPE" = "AUTO"
     Info (12134): Parameter "INIT_FILE" = "NES.NES5.rtl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_clv.tdf
-    Info (12023): Found entity 1: altsyncram_clv File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_clv.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux1_rtl_0"
-Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux1_rtl_0" with the following parameter:
+    Info (12023): Found entity 1: altsyncram_clv File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_clv.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux5_rtl_0"
+Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux5_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "ROM"
     Info (12134): Parameter "WIDTH_A" = "1"
     Info (12134): Parameter "WIDTHAD_A" = "13"
@@ -2731,9 +2736,9 @@ Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux1_rtl_0" with t
     Info (12134): Parameter "RAM_BLOCK_TYPE" = "AUTO"
     Info (12134): Parameter "INIT_FILE" = "NES.NES6.rtl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_dlv.tdf
-    Info (12023): Found entity 1: altsyncram_dlv File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_dlv.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux0_rtl_0"
-Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux0_rtl_0" with the following parameter:
+    Info (12023): Found entity 1: altsyncram_dlv File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_dlv.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "PPU:inst9|altsyncram:Mux4_rtl_0"
+Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux4_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "ROM"
     Info (12134): Parameter "WIDTH_A" = "1"
     Info (12134): Parameter "WIDTHAD_A" = "13"
@@ -2742,71 +2747,70 @@ Info (12133): Instantiated megafunction "PPU:inst9|altsyncram:Mux0_rtl_0" with t
     Info (12134): Parameter "RAM_BLOCK_TYPE" = "AUTO"
     Info (12134): Parameter "INIT_FILE" = "NES.NES7.rtl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_elv.tdf
-    Info (12023): Found entity 1: altsyncram_elv File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_elv.tdf Line: 28
+    Info (12023): Found entity 1: altsyncram_elv File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_elv.tdf Line: 28
 Warning (13034): The following nodes have both tri-state and non-tri-state drivers
-    Warning (13035): Inserted always-enabled tri-state buffer between "PPU:inst9|OAM_REGS[255][0]" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/PPU.vhd Line: 612
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
-    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/EmptyVidorProject/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "PPU:inst9|OAM_REGS[255][0]" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/PPU.vhd Line: 612
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
+    Warning (13035): Inserted always-enabled tri-state buffer between "MemoryController:inst8|addr" and its non-tri-state driver. File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/MemoryController.vhd Line: 215
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
-    Warning (13047): Converted the fan-out from the tri-state buffer "CLKDIV:inst4|CLK_OUT" to the node "PPU:inst9|OAM_REGS[255][0]" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CLKDIV.vhd Line: 11
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[0]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[1]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[2]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[3]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[14]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[13]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[15]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[4]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[5]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[6]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[7]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[8]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[9]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[10]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[11]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[12]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 554
-Info (13000): Registers with preset signals will power-up high File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 92
+    Warning (13047): Converted the fan-out from the tri-state buffer "CLKDIV:inst4|CLK_OUT" to the node "PPU:inst9|OAM_REGS[255][0]" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CLKDIV.vhd Line: 11
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[0]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[1]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[2]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[14]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[13]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[15]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[3]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[4]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[5]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[6]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[7]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[8]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[9]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[10]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[11]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+    Warning (13047): Converted the fan-out from the tri-state buffer "CPU_6502:inst|PC[12]" to the node "MemoryController:inst8|addr" into an OR gate File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 554
+Info (13000): Registers with preset signals will power-up high File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 92
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
 Critical Warning (18061): Ignored Power-Up Level option on the following registers
-    Critical Warning (18010): Register CPU_6502:inst|NMI_STATE will power up to High File: C:/Users/danie/Desktop/EmptyVidorProject/NES/CPU_6502.vhd Line: 92
+    Critical Warning (18010): Register CPU_6502:inst|NMI_STATE will power up to High File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/CPU_6502.vhd Line: 92
 Info (17049): 106 registers lost all their fanouts during netlist optimizations.
-Info (17036): Removed 2 MSB VCC or GND address nodes from RAM block "MemoryController:inst8|altsyncram:CPU_MEM_rtl_0|altsyncram_qsh1:auto_generated|ALTSYNCRAM" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_qsh1.tdf Line: 230
-Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "PPU:inst9|altsyncram:NAME_TBL_rtl_0|altsyncram_cgn1:auto_generated|ALTSYNCRAM" File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/altsyncram_cgn1.tdf Line: 189
-Info (144001): Generated suppressed messages file C:/Users/danie/Desktop/EmptyVidorProject/NES/output_files/NES.map.smsg
+Info (17036): Removed 2 MSB VCC or GND address nodes from RAM block "MemoryController:inst8|altsyncram:CPU_MEM_rtl_0|altsyncram_qsh1:auto_generated|ALTSYNCRAM" File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/altsyncram_qsh1.tdf Line: 38
+Info (144001): Generated suppressed messages file C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/output_files/NES.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Warning (15899): PLL "vidor50PLL:inst6|altpll:altpll_component|vidor50PLL_altpll:auto_generated|pll1" has parameters clk2_multiply_by and clk2_divide_by specified but port CLK[2] is not connected File: C:/Users/danie/Desktop/EmptyVidorProject/NES/db/vidor50pll_altpll.v Line: 51
-Info (21057): Implemented 16667 device resources after synthesis - the final resource count might be different
+Warning (15899): PLL "vidor50PLL:inst6|altpll:altpll_component|vidor50PLL_altpll:auto_generated|pll1" has parameters clk2_multiply_by and clk2_divide_by specified but port CLK[2] is not connected File: C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/db/vidor50pll_altpll.v Line: 51
+Info (21057): Implemented 14843 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 9 input pins
-    Info (21059): Implemented 12 output pins
-    Info (21061): Implemented 16577 logic cells
+    Info (21059): Implemented 6 output pins
+    Info (21061): Implemented 14759 logic cells
     Info (21064): Implemented 64 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 54 warnings
-    Info: Peak virtual memory: 5027 megabytes
-    Info: Processing ended: Sun Mar 24 20:30:20 2024
-    Info: Elapsed time: 00:01:20
-    Info: Total CPU time (on all processors): 00:01:28
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 50 warnings
+    Info: Peak virtual memory: 5005 megabytes
+    Info: Processing ended: Sat Mar 30 18:09:21 2024
+    Info: Elapsed time: 00:03:50
+    Info: Total CPU time (on all processors): 00:01:26
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/danie/Desktop/EmptyVidorProject/NES/output_files/NES.map.smsg.
+The suppressed messages can be found in C:/Users/danie/Desktop/NES-FPGA-Emulator/NES/output_files/NES.map.smsg.
 
 
