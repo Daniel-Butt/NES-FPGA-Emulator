@@ -1,3 +1,6 @@
+# Website
+http://nostlaginescape.com/
+
 # NES-FPGA-Emulator
 An NES FPGA emulator for the Arduino MKR Vidor 4000 board (Intel Cyclone 10 LP). Western University Capstone project 2023-2024.
 
