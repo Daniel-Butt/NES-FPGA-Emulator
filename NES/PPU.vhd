@@ -97,7 +97,7 @@ architecture behav of PPU is
 	signal SPRITE_CNT : unsigned(3 downto 0) := to_unsigned(0, 4);
 	
 	-- character rom (stores the game sprites)
-	constant CHR_ROM : CHR_ROM_ARRAY := DONKEY_KONG_CHR_ROM;
+	constant CHR_ROM : CHR_ROM_ARRAY := DONKEY_KONG_JR_CHR_ROM;
 	--attribute ram_init_file of CHR_ROM : signal is "games/test/nes_test_chr.mif";
 	
 	-- palette rom (stores the games color palettes)
@@ -368,7 +368,7 @@ begin
 				XTEMP := ("0" & X0(8 downto 1)) + ("0" & unsigned(PPU_XSCL));
 				YTEMP := ("0" & row(8 downto 1)) + ("0" & unsigned(YSCL));
 				
-				NAME_IDX := unsigned(PPU_CTRL_IN(PPU_CTRL_IDX)(1 downto 0));
+				NAME_IDX := "0" & unsigned(PPU_CTRL_IN(PPU_CTRL_IDX)(0 downto 0));
 				
 				if (YTEMP > 239) then
 					YTEMP := YTEMP - 240;
@@ -385,49 +385,49 @@ begin
 				case NAME_IDX is
 					when "00" 	=> NAME_OFFSET := x"000";
 					when "01" 	=> NAME_OFFSET := x"3C0"; -- 960
-					when "10" 	=> NAME_OFFSET := x"780"; -- 2x960
-					when "11" 	=> NAME_OFFSET := x"B40"; -- 3x960
+					when "10" 	=> NAME_OFFSET := x"000"; -- 2x960
+					when "11" 	=> NAME_OFFSET := x"3C0"; -- 3x960
 					when others => NAME_OFFSET := x"000";
 				end case;
 				
 				NAME_TBL_IDX := NAME_OFFSET + (Y(7 downto 3) & X(7 downto 3));
 				ATR_TBL_IDX := NAME_IDX & Y(7 downto 5) & X(7 downto 5);
 				
-				--if (row > vd) then
-				addr := unsigned(PPU_UADDR(5 downto 0)) & unsigned(PPU_CTRL_IN(PPU_ADDR_IDX));
-						
-				if (addr < x"2000") then
-					PPU_DATA_OUT <= CHR_ROM(to_integer(addr(12 downto 0)));
-				
---					elsif (addr >= x"2000" and addr < x"3F00") then
---					
---						case addr(11 downto 10) is
---							when "00" 	=> NAME_OFFSET2 := x"000";
---							when "01" 	=> NAME_OFFSET2 := x"3C0"; -- 960
---							when "10" 	=> NAME_OFFSET2 := x"000"; -- 2x960
---							when "11" 	=> NAME_OFFSET2 := x"3C0"; -- 3x960
---							when others => NAME_OFFSET2 := x"000";
---						end case;
---					
---					
---						if (addr(9 downto 0) < 960) then
---							-- Name table
---							PPU_DATA_OUT <= NAME_DATA;
---							NAME_TBL_IDX := NAME_OFFSET2 + addr(9 downto 0);
+--				if (row > vd) then
+--					addr := unsigned(PPU_UADDR(5 downto 0)) & unsigned(PPU_CTRL_IN(PPU_ADDR_IDX));
 --							
---						else
---							-- Attribute table
---							PPU_DATA_OUT <= ATR_DATA;
---							ATR_TBL_IDX := addr(11 downto 10) & addr(5 downto 0);
---							
---						end if;
+--					if (addr < x"2000") then
+--						PPU_DATA_OUT <= CHR_ROM(to_integer(addr(12 downto 0)));
 --					
---					elsif (addr >= x"3F00") then
---						PPU_DATA_OUT <= PALETTE_ROM(to_integer(addr(4 downto 0)));
-						
-				end if;
-					
-				--end if;
+--						elsif (addr >= x"2000" and addr < x"3F00") then
+--						
+--							case addr(11 downto 10) is
+--								when "00" 	=> NAME_OFFSET2 := x"000";
+--								when "01" 	=> NAME_OFFSET2 := x"000"; -- 960
+--								when "10" 	=> NAME_OFFSET2 := x"780"; -- 2x960
+--								when "11" 	=> NAME_OFFSET2 := x"780"; -- 3x960
+--								when others => NAME_OFFSET2 := x"000";
+--							end case;
+--						
+--						
+--							if (addr(9 downto 0) < 960) then
+--								-- Name table
+--								PPU_DATA_OUT <= NAME_DATA;
+--								NAME_TBL_IDX := NAME_OFFSET2 + addr(9 downto 0);
+--								
+--							else
+--								-- Attribute table
+--								PPU_DATA_OUT <= ATR_DATA;
+--								ATR_TBL_IDX := addr(11 downto 10) & addr(5 downto 0);
+--								
+--							end if;
+--						
+--						elsif (addr >= x"3F00") then
+--							PPU_DATA_OUT <= PALETTE_ROM(to_integer(addr(4 downto 0)));
+--							
+--					end if;
+--					
+--				end if;
 				
 				
 				-- lookup the tile idx for current pixel in the name table
@@ -446,8 +446,8 @@ begin
 						case addr(11 downto 10) is
 							when "00" 	=> NAME_OFFSET2 := x"000";
 							when "01" 	=> NAME_OFFSET2 := x"3C0"; -- 960
-							when "10" 	=> NAME_OFFSET2 := x"780"; -- 2x960
-							when "11" 	=> NAME_OFFSET2 := x"B40"; -- 3x960
+							when "10" 	=> NAME_OFFSET2 := x"000"; -- 2x960
+							when "11" 	=> NAME_OFFSET2 := x"3C0"; -- 3x960
 							when others => NAME_OFFSET2 := x"000";
 						end case;
 					

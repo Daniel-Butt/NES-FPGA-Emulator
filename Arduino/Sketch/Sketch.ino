@@ -10,19 +10,31 @@ uint8_t msg;
 bool led_state = HIGH;
 
 //hold right button if true
-const bool USE_ORIGINAL_CONTROLLER = true;
+const bool USE_ORIGINAL_CONTROLLER = false;
 
 
 void writeFPGA(uint8_t byte){
 
-  digitalWrite(17, (byte & 1) > 0 ? HIGH : LOW);
-  digitalWrite(6, (byte & 2) > 0 ? HIGH : LOW);
-  digitalWrite(5, (byte & 4) > 0 ? HIGH : LOW);
-  digitalWrite(4, (byte & 8) > 0 ? HIGH : LOW);
-  digitalWrite(3, (byte & 16) > 0 ? HIGH : LOW);
-  digitalWrite(2, (byte & 32) > 0 ? HIGH : LOW);
-  digitalWrite(1, (byte & 64) > 0 ? HIGH : LOW);
-  digitalWrite(0, (byte & 128) > 0 ? HIGH : LOW);
+  if (USE_ORIGINAL_CONTROLLER){
+    digitalWrite(17, (byte & 1) > 0 ? HIGH : LOW);
+    digitalWrite(6, (byte & 2) > 0 ? HIGH : LOW);
+    digitalWrite(5, (byte & 4) > 0 ? HIGH : LOW);
+    digitalWrite(4, (byte & 8) > 0 ? HIGH : LOW);
+    digitalWrite(3, (byte & 16) > 0 ? HIGH : LOW);
+    digitalWrite(2, (byte & 32) > 0 ? HIGH : LOW);
+    digitalWrite(1, (byte & 64) > 0 ? HIGH : LOW);
+    digitalWrite(0, (byte & 128) > 0 ? HIGH : LOW);
+  }
+  else{
+    digitalWrite(0, (byte & 1) > 0 ? HIGH : LOW);
+    digitalWrite(1, (byte & 2) > 0 ? HIGH : LOW);
+    digitalWrite(2, (byte & 4) > 0 ? HIGH : LOW);
+    digitalWrite(3, (byte & 8) > 0 ? HIGH : LOW);
+    digitalWrite(6, (byte & 16) > 0 ? HIGH : LOW);
+    digitalWrite(17, (byte & 32) > 0 ? HIGH : LOW);
+    digitalWrite(4, (byte & 64) > 0 ? HIGH : LOW);
+    digitalWrite(5, (byte & 128) > 0 ? HIGH : LOW);
+  }
 }
 
 

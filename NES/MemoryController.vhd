@@ -68,7 +68,7 @@ architecture rtl of MemoryController is
 	
    type MEM_Array is array (0 to 32767) of std_logic_vector(7 downto 0); 
    signal MEM : MEM_Array;
-	attribute ram_init_file of MEM : signal is "games/Donkey_Kong.mif"; -- replace with game ROM
+	attribute ram_init_file of MEM : signal is "games/Donkey Kong Jr.mif"; -- replace with game ROM
 	
 
 	signal mainMem		: std_logic := '0';

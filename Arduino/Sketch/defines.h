@@ -46,8 +46,8 @@ const unsigned char signatures[4096] = {
 };
 __attribute__ ((used, section(".fpga_bitstream")))
 const unsigned char bitstream[] = {
-  #include "fpga_program.h"
-  //#include "Mario_Bros.h"
+  //#include "fpga_program.h"
+  #include "Mario_Bros.h"
   //#include "Duck_Hunt.h"
   //#include "Pinball.h"
   //#include "Wrecking_Crew.h"
